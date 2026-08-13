@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Master Clean | Limpeza de Sofás em Fátima",
   description: "Limpeza de sofás, higienização de colchões e limpeza de carpetes em Fátima e arredores. Peça o seu orçamento à Master Clean.",
   keywords: ["limpeza de sofás em Fátima", "higienização de colchões em Fátima", "limpeza de carpetes em Fátima", "Master Clean"],
+  icons: { icon: "/master-clean-logo.png", shortcut: "/master-clean-logo.png" },
   openGraph: {
     title: "Master Clean | Limpeza profissional em Fátima",
     description: "Limpeza de sofás, colchões e carpetes em Fátima e arredores.",

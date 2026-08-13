@@ -20,10 +20,7 @@ export default function Home() {
   return (
     <main>
       <header className="nav shell">
-        <a className="brand" href="#top" aria-label="Master Clean — início">
-          <span className="brand-mark"><Sparkles size={21} /></span>
-          <span><strong>MASTER</strong><b>CLEAN</b></span>
-        </a>
+        <a className="brand brand-logo-crop" href="#top" aria-label="Master Clean — início"><img src="/master-clean-logo.png" alt="Master Clean" /></a>
         <nav aria-label="Navegação principal">
           <a href="#servicos">Serviços</a><a href="#processo">Como funciona</a><a href="#faq">FAQ</a>
         </nav>
@@ -83,7 +80,7 @@ export default function Home() {
 
       <section className="final-cta"><div className="shell"><div className="kicker light">A SUA CASA MERECE ESTE CUIDADO</div><h2>Pronto para sentir<br/>a diferença?</h2><p>Envie uma fotografia e peça já o seu orçamento sem compromisso.</p><div className="hero-actions centered"><a className="button green" href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle/> Pedir orçamento no WhatsApp</a><a className="button ghost" href={phone}><Phone/> 968 857 414</a></div></div></section>
 
-      <footer><div className="shell footer-grid"><div><a className="brand footer-brand" href="#top"><span className="brand-mark"><Sparkles size={21}/></span><span><strong>MASTER</strong><b>CLEAN</b></span></a><p>Limpeza e higienização profissional<br/>em Fátima e arredores.</p></div><div><b>Serviços</b><a href="#servicos">Limpeza de sofás</a><a href="#servicos">Higienização de colchões</a><a href="#servicos">Limpeza de carpetes</a></div><div><b>Contactos</b><a href={phone}>+351 968 857 414</a><a href={whatsapp} target="_blank" rel="noreferrer">WhatsApp</a><span>Fátima, Portugal</span></div></div><div className="shell copyright">© {new Date().getFullYear()} Master Clean. Todos os direitos reservados.<span>Limpeza profissional ao domicílio.</span></div></footer>
+      <footer><div className="shell footer-grid"><div><a className="footer-logo" href="#top"><img src="/master-clean-logo.png" alt="Master Clean — limpeza e higienização" /></a><p>Limpeza e higienização profissional<br/>em Fátima e arredores.</p></div><div><b>Serviços</b><a href="#servicos">Limpeza de sofás</a><a href="#servicos">Higienização de colchões</a><a href="#servicos">Limpeza de carpetes</a></div><div><b>Contactos</b><a href={phone}>+351 968 857 414</a><a href={whatsapp} target="_blank" rel="noreferrer">WhatsApp</a><span>Fátima, Portugal</span></div></div><div className="shell copyright">© {new Date().getFullYear()} Master Clean. Todos os direitos reservados.<span>Limpeza profissional ao domicílio.</span></div></footer>
       <div className="mobile-bar"><a href={phone}><Phone/> Ligar</a><a href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle/> Pedir orçamento</a></div>
     </main>
   );
