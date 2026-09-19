@@ -22,12 +22,13 @@ export default function TermsPage() {
     <h2>7. Cancelamentos e reagendamentos</h2>
     <p>O cancelamento ou reagendamento de um serviço deve ser comunicado com uma antecedência mínima de 24 horas. Cancelamentos efetuados com menos de 24 horas de antecedência ou ausências injustificadas no local poderão implicar a aplicação de uma taxa de deslocação e inconveniência.</p>
     <h2>8. Reclamações e garantia comercial</h2>
-    <p>Caso o cliente manifeste insatisfação fundamentada, dispõe de um prazo máximo de 48 horas após a conclusão do serviço para o comunicar. Validada a reclamação, a empresa procede à repetição da intervenção sem custos adicionais. Após este prazo, a garantia comercial de repetição expira, salvaguardando-se os direitos legais aplicáveis. Para mais detalhes, consulte a nossa <Link href="/sofaclean/politica-de-devolucoes">Política de Devoluções / Reembolsos</Link>.</p>
+    <p>Caso o cliente manifeste insatisfação fundamentada, dispõe de um prazo máximo de 48 horas após a conclusão do serviço para o comunicar. Validada a reclamação, a empresa procede à repetição da intervenção sem custos adicionais. Após este prazo, a garantia comercial de repetição expira, salvaguardando-se os direitos legais aplicáveis. Para mais detalhes, consulte a nossa <a href="/sofaclean/politica-de-devolucoes">Política de Devoluções / Reembolsos</a>.</p>
     <h2>9. Propriedade intelectual</h2>
     <p>Todo o conteúdo disponibilizado neste website (incluindo textos, imagens, gráficos, logótipos e código) é propriedade exclusiva da Sofa Clean Porto, encontrando-se protegido pelos direitos de autor e propriedade intelectual, sendo expressamente proibida a sua reprodução sem autorização prévia.</p>
     <h2>10. Proteção de dados</h2>
-    <p>O tratamento de dados recolhidos no âmbito da atividade comercial é efetuado em estrito cumprimento da nossa <Link href="/sofaclean/privacidade">Política de Privacidade</Link> e do Regulamento Geral de Proteção de Dados (RGPD).</p>
+    <p>O tratamento de dados recolhidos no âmbito da atividade comercial é efetuado em estrito cumprimento da nossa <a href="/sofaclean/privacidade">Política de Privacidade</a> e do Regulamento Geral de Proteção de Dados (RGPD).</p>
     <h2>11. Resolução alternativa de litígios e lei aplicável</h2>
     <p>Em caso de litígio de consumo, o consumidor pode recorrer ao Centro Nacional de Informação e Arbitragem de Conflitos de Consumo (CNIACC), com sítio em <a href="https://www.cniacc.pt/">www.cniacc.pt</a>. Os presentes Termos e Condições regem-se integralmente pela lei portuguesa. Para a resolução de quaisquer litígios emergentes deste contrato que não sejam resolvidos por via arbitral, será competente o tribunal da comarca do Porto.</p>
   </LegalPage>;
 }
+
