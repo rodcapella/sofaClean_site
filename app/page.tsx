@@ -1,5 +1,5 @@
-import { redirect } from 'next/navigation';
+import { SofaCleanPage } from '@/sofaclean_site/SofaCleanPage';
 
 export default function Home() {
-  redirect('/sofaclean');
+  return <SofaCleanPage />;
 }
