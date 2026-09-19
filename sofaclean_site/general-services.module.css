@@ -88,3 +88,5 @@
 .template :global(.sofaclean-footer){padding:30px 0 42px}
 .template :global(.footer-developer){margin-top:16px}
 .template :global(.footer-developer img){width:105px;height:62px}
+.template :global(.legal-content){margin-top:28px;margin-bottom:48px;padding:clamp(28px,5vw,64px);background:#fff;border:1px solid #dce8f4;border-radius:28px;box-shadow:0 20px 60px #071d4212}
+.template :global(.legal-content h1){color:#071d42}
