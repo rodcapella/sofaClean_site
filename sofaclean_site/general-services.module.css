@@ -70,3 +70,16 @@
 /* Final CTA layout override: keep the visual panel fully visible. */
 .template :global(.final-cta){min-height:520px;display:flex;align-items:center}
 @media(max-width:520px){.template :global(.final-cta){min-height:500px;padding-top:72px;padding-bottom:100px}}
+/* SofaClean brand palette: blue-led identity with green action accents. */
+.template{--navy:#071d42;--blue:#0877ea;--bright:#13a0ff;--ice:#edf7ff;--ink:#10213d;--muted:#64748b;--line:#dce8f4;--green:#24c66b;background:#fff;color:var(--ink)}
+.template :global(.kicker),.template :global(.eyebrow),.template :global(.nav-call),.template :global(.service-card>a),.template :global(.faq-intro>a),.template :global(.benefit-intro>a),.template :global(.legal-content a){color:var(--blue)}
+.template :global(.brand b){color:var(--blue)}
+.template :global(.brand-mark),.template :global(.primary){background:linear-gradient(135deg,var(--blue),var(--bright))}
+.template :global(.service-icon),.template :global(.floating-card>span){background:var(--ice);color:var(--blue)}
+.template :global(.area-card){background:linear-gradient(120deg,var(--blue),var(--bright))}
+.template :global(.green){background:var(--green);color:#fff}
+.template :global(.process){background:#f5faff}
+.template :global(.secondary){border-color:#c9deef}
+.template :global(.after){background:linear-gradient(135deg,#d6eefb,#f2fbff)}
+.template :global(.step-line){border-color:#b8d8ee}
+.template :global(a:focus-visible){outline-color:var(--blue)}
