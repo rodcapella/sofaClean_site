@@ -83,3 +83,8 @@
 .template :global(.after){background:linear-gradient(135deg,#d6eefb,#f2fbff)}
 .template :global(.step-line){border-color:#b8d8ee}
 .template :global(a:focus-visible){outline-color:var(--blue)}
+/* Final visual refinements */
+.template :global(.final-cta){background-color:#0d1115}
+.template :global(.sofaclean-footer){padding:30px 0 42px}
+.template :global(.footer-developer){margin-top:16px}
+.template :global(.footer-developer img){width:105px;height:62px}
