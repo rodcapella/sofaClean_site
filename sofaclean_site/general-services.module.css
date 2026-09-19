@@ -90,3 +90,5 @@
 .template :global(.footer-developer img){width:105px;height:62px}
 .template :global(.legal-content){margin-top:28px;margin-bottom:48px;padding:clamp(28px,5vw,64px);background:#fff;border:1px solid #dce8f4;border-radius:28px;box-shadow:0 20px 60px #071d4212}
 .template :global(.legal-content h1){color:#071d42}
+.template :global(.legal-back-top){margin:42px 0 0;text-align:right;border-top:1px solid #dce8f4;padding-top:22px}
+.template :global(.legal-back-top a){font-weight:800;color:#0877ea;text-decoration:none}
