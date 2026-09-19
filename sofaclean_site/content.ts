@@ -2,7 +2,7 @@ import { Building2, SprayCan, Sofa, Armchair, BedDouble, Hotel, House, Paintbrus
 
 export const generalServicesContent = {
   name: 'SofaClean',
-  tagline: 'Higienização de estofos',
+  tagline: 'Seu estofo novo de novo',
   area: 'Porto e Braga',
   address: 'Porto e Braga, Portugal',
   mapQuery: 'Porto, Portugal',

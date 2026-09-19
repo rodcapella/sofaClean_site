@@ -6,16 +6,16 @@ const body = Manrope({ variable: "--font-body", subsets: ["latin"] });
 const display = Plus_Jakarta_Sans({ variable: "--font-display", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Master Clean | Limpeza de Sofás em Fátima",
-  description: "Limpeza de sofás, higienização de colchões e limpeza de carpetes em Fátima e arredores. Peça o seu orçamento à Master Clean.",
-  keywords: ["limpeza de sofás em Fátima", "higienização de colchões em Fátima", "limpeza de carpetes em Fátima", "Master Clean"],
-  icons: { icon: "/master-clean-logo.png", shortcut: "/master-clean-logo.png" },
+  title: "Sofá Clean | Seu estofo novo de novo | Porto e Braga",
+  description: "Seu estofo novo de novo. Limpeza e higienização profissional de sofás, colchões e estofados no Porto, Braga e arredores.",
+  keywords: ["limpeza de sofás no Porto", "limpeza de sofás em Braga", "higienização de colchões no Porto", "limpeza de carpetes em Braga", "Sofá Clean"],
+  icons: { icon: "/sofa-clean-logo.png", shortcut: "/sofa-clean-logo.png" },
   openGraph: {
-    title: "Master Clean | Limpeza profissional em Fátima",
-    description: "Limpeza de sofás, colchões e carpetes em Fátima e arredores.",
+    title: "Sofá Clean | Seu estofo novo de novo",
+    description: "Seu estofo novo de novo. Higienização profissional no Porto, Braga e arredores.",
     locale: "pt_PT",
     type: "website",
-    images: [{ url: "/og.png", width: 1734, height: 907, alt: "Master Clean — Limpeza profissional em Fátima" }],
+    images: [{ url: "/og.png", width: 1734, height: 907, alt: "Sofá Clean — Limpeza profissional no Porto e Braga" }],
   },
   twitter: { card: "summary_large_image", images: ["/og.png"] },
 };
