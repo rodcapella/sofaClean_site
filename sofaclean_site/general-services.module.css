@@ -92,3 +92,5 @@
 .template :global(.legal-content h1){color:#071d42}
 .template :global(.legal-back-top){margin:42px 0 0;text-align:right;border-top:1px solid #dce8f4;padding-top:22px}
 .template :global(.legal-back-top a){font-weight:800;color:#0877ea;text-decoration:none}
+.template :global(.back-top){display:block;margin-top:34px;text-align:right;color:#0877ea;font-size:13px;font-weight:800;text-decoration:none}
+.template :global(.back-top:hover){text-decoration:underline;text-underline-offset:4px}
