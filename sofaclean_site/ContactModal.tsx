@@ -10,7 +10,7 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
   const [sent, setSent] = useState(false);
   useEffect(() => { if (!isOpen) setSent(false); }, [isOpen]);
   if (!isOpen) return null;
-  const submit = (event: FormEvent<HTMLFormElement>) => {
+  const submit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     const message = [`Nome: ${data.get('name')}`, `Email: ${data.get('email')}`, `Telefone: ${data.get('phone')}`, `Serviço: ${data.get('topic')}`, `Mensagem: ${data.get('message')}`].join('\n');
@@ -36,4 +36,5 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
     </section>
   </div>;
 }
+
 
