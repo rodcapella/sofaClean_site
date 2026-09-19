@@ -1,0 +1,60 @@
+# robots.txt for SofaClean
+# Higienização de sofás e estofados no Porto e Braga
+
+User-agent: *
+Allow: /
+
+# Bloquear áreas sensíveis e técnicas
+Disallow: /admin
+Disallow: /private
+Disallow: /api
+Disallow: /node_modules/
+Disallow: /.git/
+
+# Sitemap: substituir DOMINIO-DA-SOFACLEAN pelo domínio final
+Sitemap: https://DOMINIO-DA-SOFACLEAN/sitemap.xml
+
+# Crawlers de pesquisa
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawlers de preview social
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Crawlers de IA e indexadores LLM
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Recursos de descoberta legíveis por máquinas
+# Contexto conciso: https://DOMINIO-DA-SOFACLEAN/sofaclean/llms.txt
+# Contexto completo: https://DOMINIO-DA-SOFACLEAN/sofaclean/llms-full.txt
+# Perfil estruturado: https://DOMINIO-DA-SOFACLEAN/sofaclean/ai.json
+# Manifesto de agente: https://DOMINIO-DA-SOFACLEAN/sofaclean/.well-known/agent.json

@@ -1,0 +1,53 @@
+# SofaClean
+
+> Higienização de sofás e estofados ao domicílio nas regiões do Porto e Braga, Portugal.
+
+## Identidade e contactos
+- Marca: SofaClean
+- Área de atendimento: regiões do Porto e Braga; confirmar a localidade antes da marcação.
+- Telefone e WhatsApp: +351 920 320 174
+- [WhatsApp](https://wa.me/351920320174)
+- [Instagram oficial](https://www.instagram.com/sofaclean.porto)
+- Idioma: português de Portugal.
+
+## Páginas
+- [Início e serviços](/sofaclean)
+- [Perguntas frequentes](/sofaclean#faq)
+- [Termos e condições](/sofaclean/termos-e-condicoes)
+- [Privacidade](/sofaclean/privacidade)
+- [Política de Devoluções](/sofaclean/politica-de-devolucoes)
+- [Livro de Reclamações](https://www.livroreclamacoes.pt/Inicio/)
+
+## Respostas diretas
+### O que faz a SofaClean?
+Higienização de sofás; Higienização de poltronas; Higienização de colchões; Limpeza de alojamento; Limpeza de escritórios; Limpeza doméstica; Limpeza em geral; Limpeza pós obra. Valores a consultar para todos os serviços.
+### Onde atua?
+Nas regiões do Porto e Braga. A cobertura da localidade, disponibilidade e deslocação são confirmadas no orçamento.
+### Como pedir orçamento?
+Contactar o WhatsApp +351 920 320 174 com localidade, tipo e dimensão do artigo e, se possível, fotografias.
+### Todas as manchas desaparecem?
+Não é garantida a remoção de todas as manchas. O resultado depende do material, conservação e origem da mancha.
+
+## Recursos para sistemas de pesquisa e IA
+- [Contexto completo](/sofaclean/llms-full.txt)
+- [Perfil estruturado](/sofaclean/ai.json)
+- [Manifesto](/sofaclean/.well-known/agent.json)
+- [Sitemap](/sofaclean/sitemap.xml)
+- [Política de robôs](/sofaclean/robots.txt)
+
+## Precisão e atribuição
+Citar SofaClean e a página consultada. Confirmar preços, horários e disponibilidade por contacto direto. Não inventar certificações, moradas, NIF, avaliações, garantias, percentagens de desinfeção ou serviços adicionais. Não confundir com outras marcas de nome semelhante. O domínio definitivo ainda não está configurado; os caminhos são relativos ao alojamento desta solução.
+
+## Prestação do serviço
+O cliente descreve o artigo e a localização. A equipa avalia o pedido, apresenta as condições e combina a intervenção após aceitação. As limitações do tecido e danos preexistentes devem ser analisados antes do tratamento. Trabalhos adicionais exigem acordo prévio.
+
+## Secagem
+Secagem média de 3 a 6 horas, dependendo da ventilação, do tecido e das condições do espaço.
+
+## Informação comercial
+Valores dos serviços a consultar. A Política de Devoluções descreve a garantia de repetição mediante reclamação validada em 48 horas, cancelamento com 24 horas de antecedência e taxa de 20,00 € (ou outra quantia previamente acordada) nas condições aí indicadas. Consultar a política para os detalhes e exceções.
+
+## Privacidade e contratação
+O contacto é realizado por telefone ou WhatsApp. A página não contém formulário de recolha de dados nem carregamento automático de mapas. As páginas legais explicam as condições do serviço, os direitos do consumidor e o tratamento dos dados de contacto. Não interpretar a marcação como consentimento automático para renunciar a direitos legais.
+
+

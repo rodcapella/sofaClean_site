@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "name": "SofaClean",
+  "description": "Higienização de sofás e estofados ao domicílio no Porto e Braga.",
+  "language": "pt-PT",
+  "url": null,
+  "canonical_url_pending": true,
+  "area_served": [
+    "Porto",
+    "Braga"
+  ],
+  "services": [
+    "Higienização de sofás",
+    "Higienização de poltronas",
+    "Higienização de colchões",
+    "Limpeza de alojamento",
+    "Limpeza de escritórios",
+    "Limpeza doméstica",
+    "Limpeza em geral",
+    "Limpeza pós obra"
+  ],
+  "contact": {
+    "telephone": "+351920320174",
+    "whatsapp": "https://wa.me/351920320174"
+  },
+  "entity_signals": {
+    "sameAs": [
+      "https://www.instagram.com/sofaclean.porto"
+    ]
+  },
+  "pages": [
+    "/sofaclean",
+    "/sofaclean/termos-e-condicoes",
+    "/sofaclean/privacidade",
+    "/sofaclean/politica-de-devolucoes"
+  ],
+  "discovery": {
+    "llms": "/sofaclean/llms.txt",
+    "llms_full": "/sofaclean/llms-full.txt",
+    "ai_json": "/sofaclean/ai.json",
+    "agent_manifest": "/sofaclean/.well-known/agent.json",
+    "sitemap": "/sitemap.xml",
+    "root_robots": "/robots.txt",
+    "robots": "/sofaclean/robots.txt"
+  },
+  "content_preferences": {
+    "ai_train": false,
+    "search": true,
+    "ai_input": true,
+    "attribution": "Citar SofaClean e a página consultada."
+  },
+  "ai_guidance": {
+    "verify_time_sensitive_information": true,
+    "do_not": [
+      "Inventar preços, horários, sede, NIF ou certificações",
+      "Garantir remoção total de manchas ou efeitos médicos",
+      "Atribuir serviços e garantias de outras empresas à SofaClean",
+      "Tratar a presença de JSON-LD como prova de autoridade, certificação ou ranking",
+      "Apresentar a SofaClean como certificada ou desinfetadora sem evidência publicada"
+    ]
+  },
+  "pricing": "Valores a consultar",
+  "editorial_signals": {
+    "brand_visible_name": "SofaClean",
+    "language": "pt-PT",
+    "author_policy": "Conteúdo factual deve ser atribuído à SofaClean; não inventar autores, clientes, métricas ou certificações.",
+    "sources_policy": "Usar páginas oficiais e fontes legais identificadas; links meramente operacionais não são fontes editoriais.",
+    "responsibility": "Os sinais editoriais são observáveis e não certificam E-E-A-T nem garantem posicionamento.",
+    "last_reviewed": "2026-09-19"
+  }
+}
