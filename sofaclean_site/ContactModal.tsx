@@ -14,7 +14,8 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     const message = [`Nome: ${data.get('name')}`, `Email: ${data.get('email')}`, `Telefone: ${data.get('phone')}`, `Serviço: ${data.get('topic')}`, `Mensagem: ${data.get('message')}`].join('\n');
-    window.open(`https://wa.me/351920320174?text=${encodeURIComponent(`Olá SofaClean!\n${message}`)}`, '_blank', 'noopener,noreferrer');
+    const response = await fetch('/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name: data.get('name'), email: data.get('email'), phone: data.get('phone'), topic: data.get('topic'), message: data.get('message') }) });
+    if (!response.ok) { window.location.href = `mailto:cleansolutions.pt25@gmail.com?subject=${encodeURIComponent(`Pedido SofaClean — ${data.get('topic')}`)}&body=${encodeURIComponent(message)}`; return; }
     setSent(true);
   };
   return <div className={styles.contactOverlay} role="presentation" onMouseDown={onClose}>
@@ -29,9 +30,10 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
           <label>Telemóvel<input name="phone" type="tel" placeholder="+351 ..." /></label>
           <label>Serviço *<select name="topic" required defaultValue={initialTopic}><option value="" disabled>Escolha um serviço</option><option>Higienização de sofás</option><option>Higienização de poltronas</option><option>Higienização de colchões</option><option>Limpeza doméstica</option><option>Outro serviço</option></select></label>
           <label className={styles.contactFull}>Mensagem *<textarea name="message" required rows={4} placeholder="Conte-nos o que precisa..." /></label>
-          <button className="button green" type="submit"><MessageCircle size={18} /> Continuar no WhatsApp</button>
+          <button className="button green" type="submit"><MessageCircle size={18} /> Enviar pedido por email</button>
         </form>
       </>}
     </section>
   </div>;
 }
+
