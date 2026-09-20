@@ -7,7 +7,7 @@ import type { MouseEvent } from 'react';
 import { useState } from 'react';
 import { ArrowRight, Check, ChevronDown, MapPin, MessageCircle, Phone, Sparkles, ShieldCheck } from 'lucide-react';
 import type { GeneralServicesContent } from './content';
-import styles from './general-services.module.css';
+import './index.css';
 import { CustomerReviews } from './CustomerReviews';
 import { ContactModal } from './ContactModal';
 
@@ -27,7 +27,7 @@ export function GeneralServicesLandingPage({ content: c, demo = false, onOpenCon
     const serviceWhatsapp = canWhatsApp ? `https://wa.me/${whatsappDigits}?text=${encodeURIComponent(`Olá! Gostaria de pedir um orçamento para ${topic}.`)}` : '#orcamento';
     return !canWhatsApp && onOpenContact ? { href: '#', onClick: (event: MouseEvent<HTMLAnchorElement>) => { event.preventDefault(); onOpenContact(topic); } } : { href: serviceWhatsapp, target: '_blank', rel: 'noreferrer' };
   };
-  return <div className={styles.template}>
+  return <div className="template">
     <a className="skip-link" href="#servicos-conteudo">Saltar para o conteúdo</a>
     <header className="nav shell"><a className="brand brand-logo-crop" href="#top" aria-label={`${c.name} — início`}><Image unoptimized src="/sofa-clean-logo.png" alt={c.name} width={220} height={110} /></a><nav aria-label="Navegação de serviços"><a href="#servicos">Serviços</a><a href="#processo">Como funciona</a><a href="#faq">FAQ</a><a href="#contacto" onClick={event => { event.preventDefault(); setContactOpen(true); }}>Contacto</a></nav></header>
     <main id="servicos-conteudo">
@@ -48,6 +48,7 @@ export function GeneralServicesLandingPage({ content: c, demo = false, onOpenCon
     <ContactModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />
   </div>;
 }
+
 
 
 
