@@ -2,7 +2,7 @@
 
 import { FormEvent, useEffect, useState } from 'react';
 import { CheckCircle2, MessageCircle, X } from 'lucide-react';
-import './modal.css';
+import '@/styles/modal.css';
 
 type ContactModalProps = { isOpen: boolean; onClose: () => void; initialTopic?: string };
 
@@ -36,6 +36,7 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
     </section>
   </div>;
 }
+
 
 
 

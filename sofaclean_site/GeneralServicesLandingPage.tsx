@@ -6,7 +6,7 @@ import { SofaCleanWhatsApp } from './SofaCleanWhatsApp';
 import type { MouseEvent } from 'react';
 import { ArrowRight, Check, ChevronDown, Mail, MapPin, MessageCircle, Phone, Sparkles, ShieldCheck } from 'lucide-react';
 import type { GeneralServicesContent } from './content';
-import styles from './general-services.module.css';
+import styles from '@/styles/general-services.module.css';
 import { CustomerReviews } from './CustomerReviews';
 import { LegalModal } from './LegalModal';
 import { useState } from 'react';
@@ -46,6 +46,7 @@ export function GeneralServicesLandingPage({ content: c, demo = false, onOpenCon
     {legalKind && <LegalModal kind={legalKind} onClose={() => setLegalKind(null)} />}
   </div>;
 }
+
 
 
 
