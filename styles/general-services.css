@@ -96,3 +96,4 @@
 .template .footer-policy-links{margin-bottom:18px}.template .footer-copyright{margin-top:0}@media(max-width:560px){.template .final-cta{padding:54px 20px 58px}.template .final-cta h2{font-size:clamp(36px,11vw,52px)}.template .final-cta p{max-width:330px;margin:0 auto;line-height:1.6}.template .final-cta .hero-actions{flex-direction:column;align-items:stretch;gap:10px}.template .final-cta .button{width:100%;min-height:50px}.template .footer-policy-links{margin-bottom:20px}}
 @media(min-width:851px){.template .work-photo{object-position:50% 18%}}
 .template .og-panel-image:hover{transform:none;filter:none;box-shadow:none}@media(max-width:520px){.template .og-panel-image{height:auto;min-height:0;max-height:none;object-fit:contain}}
+.template .outside-coverage-card .button{min-height:42px;padding:0 18px;font-size:13px;border-radius:9px}
