@@ -37,13 +37,11 @@ export const generalServicesContent = {
   ],
   faqs: [
     { question: 'Onde atua a SofaClean?', answer: 'Prestamos serviços ao domicílio nas regiões do Porto e Braga. Envie a sua localidade para confirmar a cobertura, disponibilidade e condições de deslocação.' },
-    { question: 'Como peço um orçamento?', answer: 'Contacte-nos pelo WhatsApp +351 920 320 174. Indique a localidade, o tipo e a dimensão do artigo e, se possível, envie fotografias do estofo.' },
-    { question: 'Quanto tempo demora para o sofá secar?', answer: 'O tempo varia conforme o tecido e o ambiente. Utilizamos equipamentos profissionais para otimizar a extração e reduzir o tempo de secagem.' },
-    { question: 'Posso utilizar o sofá logo após a higienização?', answer: 'Recomendamos aguardar a secagem completa. Em muitos casos, o processo permite entregar o estofado praticamente seco.' },
+    { question: 'Como peço um orçamento?', answer: 'Contacte-nos pelo WhatsApp +351 920 320 174, pelo telefone +351 920 320 174 ou pelo email sofaclean.porto@gmail.com. Indique a localidade, o tipo e a dimensão do artigo e, se possível, envie fotografias do estofo.' },
     { question: 'A higienização remove manchas e odores?', answer: 'Trabalhamos para remover sujidade, manchas e odores. O resultado depende da origem e do tempo da mancha.' },
     { question: 'A higienização elimina ácaros e bactérias?', answer: 'Sim. Utilizamos produtos e técnicas profissionais que ajudam a reduzir ácaros, bactérias e outros agentes presentes no estofado.' },
     { question: 'Com que frequência devo higienizar o sofá?', answer: 'Recomendamos a higienização a cada 6 meses, podendo variar conforme o uso e as características de cada ambiente.' },
-    { question: 'O sofá fica molhado após a limpeza? Quanto tempo seca?', answer: 'Secagem média de 3 a 6 horas, dependendo da ventilação, do tecido e das condições do espaço.' },
+    { question: 'O sofá fica molhado após a limpeza? Posso utilizá-lo logo depois? Quanto tempo seca?', answer: 'Recomendamos aguardar a secagem completa antes de utilizar o sofá. O tempo varia conforme o tecido e o ambiente; a secagem média é de 3 a 6 horas. Utilizamos equipamentos profissionais para otimizar a extração e, em muitos casos, entregar o estofado praticamente seco.' },
     { question: 'Conseguem tirar manchas de vinho, sangue e gordura?', answer: 'Tratamos manchas de vinho, sangue, café, gordura e urina. O resultado depende do tecido, da substância e do tempo decorrido. Envie uma fotografia para avaliarmos as possibilidades antes de marcar; não garantimos a remoção de todas as manchas.' },
     { question: 'Qual a diferença entre higienização e limpeza de sofá?', answer: 'A limpeza remove sujidade, resíduos e partículas. O tratamento anti-ácaros e a desbacterização são extras opcionais, orçamentados separadamente. A limpeza normal não promete eliminação de microrganismos.' },
     { question: 'Limpam sofás de couro, alcântara e veludo?', answer: 'Sim, com produtos e técnicas específicos para cada material.\n\nCouro e pele genuína: limpeza com produto desengordurante neutro seguido de hidratante de couro, que preserva a flexibilidade e evita rachas.\n\nAlcântara: produto de pH neutro aplicado a seco com técnica de pressão controlada para não danificar a microfibra.\n\nVeludo: extração na direção do pelo com cabeçote especializado que restaura a textura.\n\nCouro sintético (PU) e microfibra: processo adaptado ao nível de sujidade.' },
@@ -61,4 +59,6 @@ export const generalServicesContent = {
 };
 
 export type GeneralServicesContent = typeof generalServicesContent;
+
+
 
