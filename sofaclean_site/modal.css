@@ -102,3 +102,8 @@
 .legalFrame{display:block;min-height:0;height:100%;background:#fff}
 .legalModal svg,.contactModal svg{color:#24c66b}
 .contactClose svg{color:#071d42}
+/* Contact modal presentation */
+.contactOverlay{position:fixed;inset:0;z-index:2000;display:grid;place-items:center;padding:20px;background:rgba(7,29,66,.72);backdrop-filter:blur(8px)}
+.contactModal{position:relative;width:min(720px,100%);max-height:calc(100vh - 40px);overflow:auto;padding:36px;border-radius:24px;background:#fff;color:#10213d;box-shadow:0 30px 90px rgba(4,19,46,.45)}
+.contactClose{position:absolute;right:18px;top:18px;background:#edf7ff;color:#0877ea}.contactHeading{display:flex;align-items:center;gap:14px}.contactHeading h2{font:800 30px Arial,sans-serif;color:#071d42}.contactIcon{background:#edf7ff;color:#0877ea}.contactIntro{color:#64748b}.contactForm label{color:#29415e}.contactForm input,.contactForm select,.contactForm textarea{border:1px solid #c9deef;background:#fbfdff;color:#10213d}.contactForm input:focus,.contactForm select:focus,.contactForm textarea:focus{border-color:#0877ea;box-shadow:0 0 0 3px #0877ea22}.contactForm button.button.green{display:inline-flex;min-height:48px;border:0;background:#24c66b;color:#fff;justify-content:center}.contactForm button svg{color:#fff}.contactSuccess svg{color:#0877ea}
+@media(max-width:560px){.contactModal{padding:28px 20px}.contactForm{grid-template-columns:1fr}}
