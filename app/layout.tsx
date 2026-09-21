@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import '@/styles/globals.css';
 import '@/styles/index.css';
+import '@/styles/modal.css';
 import '@/styles/general-services.css';
 export const metadata: Metadata = {
  title: 'SofaClean | Higienização de sofás no Porto e Braga',

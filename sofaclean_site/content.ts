@@ -11,7 +11,7 @@ export const generalServicesContent = {
   phone: '+351 920 320 174',
   whatsappNumber: '351920320174',
   whatsappMessage: 'Olá! Gostaria de pedir um orçamento para higienização de sofás ou estofados.',
-  heroImage: null as { src: string; alt: string } | null,
+  heroImage: { src: '/sofaclean/photos/equipa.jpeg', alt: 'Equipa SofaClean preparada para cuidar dos seus estofos' } as { src: string; alt: string } | null,
   services: [
     { icon: Sofa, title: 'Higienização de sofás', text: 'Cuidados para o tecido e limpeza do sofá, com avaliação prévia do seu estado.', note: 'Valores a consultar', image: '/sofaclean/icons/sofas.svg' },
     { icon: Armchair, title: 'Higienização de poltronas', text: 'Limpeza cuidada de poltronas, adaptada ao material e às necessidades de cada peça.', note: 'Valores a consultar', image: '/sofaclean/icons/poltronas.svg' },
@@ -63,5 +63,4 @@ faqs: [
 };
 
 export type GeneralServicesContent = typeof generalServicesContent;
-
 
