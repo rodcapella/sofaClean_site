@@ -44,7 +44,10 @@ export const generalServicesContent = {
     { question: 'Qual é a diferença entre tapete e alcatifa para efeitos de limpeza?', answer: 'Tapete é uma peça solta com dimensões definidas que pode ser movida e transportada. Alcatifa é um revestimento de piso fixo ou semi-fixo que cobre toda uma divisão.\n\nDo ponto de vista de limpeza: tapetes avulsos são tratados ao domicílio ou com recolha e entrega; alcatifas são sempre limpas no local por extração a vapor sem remoção. Em ambos os casos o orçamento é sempre feito à medida, sem tabela fixa por m².' },
   ],
   // Apenas fotografias e avaliações reais autorizadas. Secções ocultas quando vazias.
-  projects: [] as { title: string; before: string; after: string }[],
+  projects: [
+    { title: 'Higienização de sofá', before: '/sofaclean/photos/sofa_antes.jpeg', after: '/sofaclean/photos/sofa_depois.jpeg' },
+    { title: 'Higienização de colchão', before: '/sofaclean/photos/colchao_antes.jpeg', after: '/sofaclean/photos/colchao_depois.jpeg' },
+  ] as { title: string; before: string; after: string }[],
   googleReviews: { url: 'https://share.google/sy3XCoSj15maT1CxE', rating: 5 as number | null, count: 42 as number | null, checkedOn: '18/09/2026' },
   testimonials: [
     { quote: 'Empresa de confiabilidade, transparência e muito profissionalismo. Indico imenso!', author: 'Daniel Cambui', rating: 5, url: 'https://share.google/sy3XCoSj15maT1CxE' },
