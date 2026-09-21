@@ -69,3 +69,5 @@
 .template :global(.brand-mark svg){width:30px;height:30px}.template :global(.brand strong){font-size:25px;color:#fff}.template :global(.brand b){font-size:13px;margin-top:7px;color:#bce85b}.template :global(.nav nav a){color:#dce7e9}.template :global(.nav nav a:hover){color:#bce85b}.template :global(.nav-call){color:#bce85b}
 @media(max-width:850px){.template :global(.nav){height:92px;padding-inline:14px}}
 @media(max-width:520px){.template :global(.brand-mark){width:48px;height:48px;border-radius:13px}.template :global(.brand-mark svg){width:25px;height:25px}.template :global(.brand strong){font-size:20px}.template :global(.brand b){font-size:10px}}
+/* Icon palette */
+.template :global(svg){color:#4d7000}.template :global(.nav-call svg),.template :global(.brand-mark svg),.template :global(.footer-contact svg),.template :global(.button svg),.template :global(.legal-modal-close svg){color:#4d7000}

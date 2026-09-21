@@ -1,17 +1,12 @@
-@import 'tailwindcss/index.css';
-@import 'tw-animate-css';
-@import 'shadcn/tailwind.css';
-@theme inline { --color-background: var(--background); --color-foreground: var(--foreground); --color-primary: var(--primary); --color-border: var(--border); --color-ring: var(--ring); --font-sans: 'IBM Plex Sans', Arial, sans-serif; }
-:root { --background:#F5F7F3; --foreground:#16241F; --primary:#1E3F35; --border:#C9D3C6; --ring:#876126; color-scheme:light; }
-body { margin:0; font-family:'IBM Plex Sans',Arial,sans-serif; line-height:1.65; background:var(--background); color:var(--foreground); }
-h1,h2,h3 { font-family:'Source Serif 4',Georgia,serif; line-height:1.2; }
+:root { --background:#0b1114; --foreground:#172027; --primary:#9fd000; --border:#dce8d2; --ring:#9fd000; color-scheme:light; }
+body { margin:0; font-family:Arial,sans-serif; line-height:1.65; background:var(--background); color:var(--foreground); }
 html { scroll-behavior:smooth; }
 section[id], main[id] { scroll-margin-top:100px; }
 button,a,input,select,textarea { -webkit-tap-highlight-color:transparent; }
 button,a { touch-action:manipulation; }
 button { cursor:pointer; }
-:focus-visible { outline:3px solid #B8863B; outline-offset:5px; }
+:focus-visible { outline:3px solid #9fd000; outline-offset:5px; }
 input,select,textarea { font:inherit; }
-.skip-link { position:fixed; top:8px; left:8px; z-index:100; transform:translateY(-160%); padding:12px 18px; background:white; color:#1E3F35; }
+.skip-link { position:fixed; top:8px; left:8px; z-index:100; transform:translateY(-160%); padding:12px 18px; background:white; color:#172027; }
 .skip-link:focus { transform:translateY(0); }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation:none!important; transition:none!important; } }
