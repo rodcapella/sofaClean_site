@@ -6,7 +6,6 @@ import { SofaCleanWhatsApp } from './SofaCleanWhatsApp';
 import type { MouseEvent } from 'react';
 import { ArrowRight, Check, ChevronDown, Mail, MapPin, MessageCircle, Phone, Sparkles, ShieldCheck } from 'lucide-react';
 import type { GeneralServicesContent } from './content';
-import styles from '@/styles/general-services.module.css';
 import { CustomerReviews } from './CustomerReviews';
 import { LegalModal } from './LegalModal';
 import { useState } from 'react';
@@ -24,7 +23,7 @@ export function GeneralServicesLandingPage({ content: c, demo = false, onOpenCon
   const whatsapp = canWhatsApp ? `https://wa.me/${whatsappDigits}?text=${encodeURIComponent(c.whatsappMessage)}` : '#orcamento';
   const phone = canCall ? `tel:${phoneDigits}` : '#orcamento';
   const contactProps = (topic = 'Higienização de estofos') => !canWhatsApp && onOpenContact ? { href: '#', onClick: (event: MouseEvent<HTMLAnchorElement>) => { event.preventDefault(); onOpenContact(topic); } } : { href: whatsapp };
-  return <div className={styles.template}>
+  return <div className="template">
     <a className="skip-link" href="#servicos-conteudo">Saltar para o conteúdo</a>
     <header className="nav shell"><a className="brand" href="#top" aria-label={`${c.name} — início`}><span className="brand-logo"><Image unoptimized src="/sofaclean/logos/sofa-clean-logo.png" alt="SofaClean" width={180} height={72} /></span><span><strong>{c.name}</strong><b>{c.tagline}</b></span></a><nav aria-label="Navegação de serviços"><a href="#servicos">Serviços</a><a href="#processo">Como funciona</a><a href="#faq">FAQ</a></nav><div className="nav-actions"><a className="nav-call" href="#contacto" onClick={(event) => { event.preventDefault(); onOpenContact?.('Higienização de estofos'); }}><Mail size={17} aria-hidden="true" />Contactos</a><a className="nav-phone" href="tel:+351920320174"><Phone size={17} aria-hidden="true" />Ligar</a></div></header>
     <main id="servicos-conteudo">
@@ -46,6 +45,7 @@ export function GeneralServicesLandingPage({ content: c, demo = false, onOpenCon
     {legalKind && <LegalModal kind={legalKind} onClose={() => setLegalKind(null)} />}
   </div>;
 }
+
 
 
 
