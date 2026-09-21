@@ -100,3 +100,5 @@
 
 .legalModal{min-height:0}
 .legalFrame{display:block;min-height:0;height:100%;background:#fff}
+.legalModal svg,.contactModal svg{color:#24c66b}
+.contactClose svg{color:#071d42}

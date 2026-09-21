@@ -14,7 +14,8 @@ export async function POST(request: Request) {
   if (current && current.resetAt>now && current.count>=3) return NextResponse.json({error:'rate_limited'},{status:429});
   attempts.set(ip,current&&current.resetAt>now?{count:current.count+1,resetAt:current.resetAt}:{count:1,resetAt:now+900000});
   const text = [`Nome: ${name}`, `Email: ${email}`, `Telefone: ${phone || '-'}`, `Serviço: ${topic}`, '', message].join('\n');
-  const response = await fetch('https://api.resend.com/emails', { method: 'POST', headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ from: process.env.CONTACT_FROM_EMAIL || 'SofaClean <onboarding@resend.dev>', to: ['cleansolutions.pt25@gmail.com'], reply_to: email, subject: `Novo pedido SofaClean — ${topic}`, text }) });
+  const response = await fetch('https://api.resend.com/emails', { method: 'POST', headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ from: process.env.CONTACT_FROM_EMAIL || 'SofaClean <onboarding@resend.dev>', to: ['sofaclean.porto@gmail.com'], reply_to: email, subject: `Novo pedido SofaClean — ${topic}`, text }) });
   if (!response.ok) return NextResponse.json({ error: 'email_failed' }, { status: 502 });
   return NextResponse.json({ ok: true });
 }
+

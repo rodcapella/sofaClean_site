@@ -60,7 +60,8 @@
       "Apresentar a SofaClean como certificada ou desinfetadora sem evidência publicada"
     ]
   },
-  "pricing": "Valores a consultar",
+  "pricing": "Higienização a partir de 19,90 €; restantes serviços a consultar",
+  "travel_policy": "Deslocação gratuita nos arredores, mediante confirmação da localidade",
   "editorial_signals": {
     "brand_visible_name": "SofaClean",
     "language": "pt-PT",
@@ -70,3 +71,4 @@
     "last_reviewed": "2026-09-19"
   }
 }
+

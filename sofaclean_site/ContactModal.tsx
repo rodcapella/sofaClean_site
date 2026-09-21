@@ -15,7 +15,7 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
     const data = new FormData(event.currentTarget);
     const message = [`Nome: ${data.get('name')}`, `Email: ${data.get('email')}`, `Telefone: ${data.get('phone')}`, `Serviço: ${data.get('topic')}`, `Mensagem: ${data.get('message')}`].join('\n');
     const response = await fetch('/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name: data.get('name'), email: data.get('email'), phone: data.get('phone'), topic: data.get('topic'), message: data.get('message') }) });
-    if (!response.ok) { window.location.href = `mailto:cleansolutions.pt25@gmail.com?subject=${encodeURIComponent(`Pedido SofaClean — ${data.get('topic')}`)}&body=${encodeURIComponent(message)}`; return; }
+    if (!response.ok) { window.location.href = `mailto:sofaclean.porto@gmail.com?subject=${encodeURIComponent(`Pedido SofaClean — ${data.get('topic')}`)}&body=${encodeURIComponent(message)}`; return; }
     setSent(true);
   };
   return <div className={"contactOverlay"} role="presentation" onMouseDown={onClose}>
@@ -36,6 +36,7 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
     </section>
   </div>;
 }
+
 
 
 
