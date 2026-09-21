@@ -1,8 +1,7 @@
 {
   "schema_version": "1.0",
   "name": "SofaClean",
-  "description": "Seu estofo novo de novo. Higienização de sofás e estofados ao domicílio no Porto e Braga.",
-  "slogan": "Seu estofo novo de novo",
+  "description": "Higienização de sofás e estofados ao domicílio no Porto e Braga.",
   "language": "pt-PT",
   "url": null,
   "canonical_url_pending": true,
@@ -60,8 +59,7 @@
       "Apresentar a SofaClean como certificada ou desinfetadora sem evidência publicada"
     ]
   },
-  "pricing": "Higienização a partir de 19,90 €; restantes serviços a consultar",
-  "travel_policy": "Deslocação gratuita nos arredores, mediante confirmação da localidade",
+  "pricing": "Valores a consultar",
   "editorial_signals": {
     "brand_visible_name": "SofaClean",
     "language": "pt-PT",
@@ -71,4 +69,3 @@
     "last_reviewed": "2026-09-19"
   }
 }
-

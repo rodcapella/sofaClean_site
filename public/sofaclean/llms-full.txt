@@ -1,9 +1,9 @@
 # SofaClean
 
-> Seu estofo novo de novo. Higienização de sofás e estofados ao domicílio nas regiões do Porto e Braga, Portugal.
+> Higienização de sofás e estofados ao domicílio nas regiões do Porto e Braga, Portugal.
 
 ## Identidade e contactos
-- Marca: SofaClean`r`n- Slogan: Seu estofo novo de novo
+- Marca: SofaClean
 - Área de atendimento: regiões do Porto e Braga; confirmar a localidade antes da marcação.
 - Telefone e WhatsApp: +351 920 320 174
 - [WhatsApp](https://wa.me/351920320174)
@@ -38,7 +38,7 @@ Não é garantida a remoção de todas as manchas. O resultado depende do materi
 ## Precisão e atribuição
 Citar SofaClean e a página consultada. Confirmar preços, horários e disponibilidade por contacto direto. Não inventar certificações, moradas, NIF, avaliações, garantias, percentagens de desinfeção ou serviços adicionais. Não confundir com outras marcas de nome semelhante. O domínio definitivo ainda não está configurado; os caminhos são relativos ao alojamento desta solução.
 
-## Informação comercial`r`nHigienização a partir de 19,90 €. A deslocação não é cobrada nos arredores, mediante confirmação da localidade.`r`n`r`n## Prestação do serviço
+## Prestação do serviço
 O cliente descreve o artigo e a localização. A equipa avalia o pedido, apresenta as condições e combina a intervenção após aceitação. As limitações do tecido e danos preexistentes devem ser analisados antes do tratamento. Trabalhos adicionais exigem acordo prévio.
 
 ## Secagem
@@ -49,6 +49,5 @@ Valores dos serviços a consultar. A Política de Devoluções descreve a garant
 
 ## Privacidade e contratação
 O contacto é realizado por telefone ou WhatsApp. A página não contém formulário de recolha de dados nem carregamento automático de mapas. As páginas legais explicam as condições do serviço, os direitos do consumidor e o tratamento dos dados de contacto. Não interpretar a marcação como consentimento automático para renunciar a direitos legais.
-
 
 
