@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "name": "SofaClean",
-  "description": "Higienização de sofás e estofados ao domicílio no Porto e Braga.",
+  "description": "Higienização de sofás, tapetes, colchões e bancos de carros ao domicílio nas regiões do Porto e Braga.",
   "language": "pt-PT",
   "url": null,
   "canonical_url_pending": true,
@@ -13,6 +13,8 @@
     "Higienização de sofás",
     "Higienização de poltronas",
     "Higienização de colchões",
+    "Limpeza profissional de tapetes",
+    "Higienização de bancos de carros",
     "Limpeza de alojamento",
     "Limpeza de escritórios",
     "Limpeza doméstica",
