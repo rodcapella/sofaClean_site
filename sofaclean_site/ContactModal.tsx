@@ -28,8 +28,8 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
           <label>Nome *<input name="name" required placeholder="O seu nome" /></label>
           <label>Email *<input name="email" type="email" required placeholder="nome@email.com" /></label>
           <label>Telemóvel<input name="phone" type="tel" placeholder="+351 ..." /></label>
-          <label>Assunto *<select name="subject" required defaultValue=""><option value="" disabled>Escolha o assunto</option><option value="Orçamento">Orçamento</option><option value="Contato">Contato</option><option value="Dúvidas">Dúvidas</option><option value="Reclamação">Reclamação</option><option value="Sugestão">Sugestão</option></select></label>
-          <label>Serviço *<select name="topic" required defaultValue={initialTopic}><option value="" disabled>Escolha um serviço</option><option>Higienização de sofás</option><option>Higienização de poltronas</option><option>Higienização de colchões</option><option>Limpeza doméstica</option><option>Outro serviço</option></select></label>
+          <label>Assunto *<select name="subject" required defaultValue=""><option value="" disabled>Escolha o assunto</option><option value="Contato">Contato</option><option value="Dúvidas">Dúvidas</option><option value="Orçamento">Orçamento</option><option value="Reclamação">Reclamação</option><option value="Sugestão">Sugestão</option><option value="Outros">Outros</option></select></label>
+          <label>Serviço *<select name="topic" required defaultValue={initialTopic}><option value="" disabled>Escolha um serviço</option><option>Higienização de colchões</option><option>Higienização de poltronas</option><option>Higienização de sofás</option><option>Limpeza doméstica</option><option>Outros</option></select></label>
           <label className={"contactFull"}>Mensagem *<textarea name="message" required rows={4} placeholder="Conte-nos o que precisa..." /></label>
           <button className="button green" type="submit"><Mail size={18} /> Enviar pedido por email</button>
         </form>
