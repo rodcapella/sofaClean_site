@@ -11,7 +11,7 @@ export const generalServicesContent = {
   phone: '+351 920 320 174',
   whatsappNumber: '351920320174',
   whatsappMessage: 'Olá! Gostaria de pedir um orçamento para higienização de sofás ou estofados.',
-  heroImage: { src: '/sofaclean/photos/equipa.jpeg', alt: 'Equipa SofaClean preparada para cuidar dos seus estofos' } as { src: string; alt: string } | null,
+  heroImage: { src: '/sofaclean/photos/equipa.webp', alt: 'Equipa SofaClean preparada para cuidar dos seus estofos' } as { src: string; alt: string } | null,
   services: [
     { icon: Sofa, title: 'Higienização de sofás', text: 'Cuidados para o tecido e limpeza do sofá, com avaliação prévia do seu estado.', note: 'Valores a consultar', image: '/sofaclean/icons/sofas.svg' },
     { icon: Armchair, title: 'Higienização de poltronas', text: 'Limpeza cuidada de poltronas, adaptada ao material e às necessidades de cada peça.', note: 'Valores a consultar', image: '/sofaclean/icons/poltronas.svg' },
@@ -49,8 +49,10 @@ faqs: [
   ],
   // Apenas fotografias e avaliações reais autorizadas. Secções ocultas quando vazias.
   projects: [
-    { title: 'Higienização de sofá', before: '/sofaclean/photos/sofa_antes.jpeg', after: '/sofaclean/photos/sofa_depois.jpeg' },
-    { title: 'Higienização de colchão', before: '/sofaclean/photos/colchao_antes.jpeg', after: '/sofaclean/photos/colchao_depois.jpeg' },
+    { title: 'Higienização de sofá', before: '/sofaclean/photos/sofa_antes.webp', after: '/sofaclean/photos/sofa_depois.webp' },
+    { title: 'Higienização de colchão', before: '/sofaclean/photos/colchao_antes.webp', after: '/sofaclean/photos/colchao_depois.webp' },
+    { title: 'Limpeza de tapete', before: '/sofaclean/photos/tapete_antes.webp', after: '/sofaclean/photos/tapete_depois.webp' },
+    { title: 'Higienização de banco de carro', before: '/sofaclean/photos/banco_carro_antes.webp', after: '/sofaclean/photos/banco_carro_depois.webp' },
   ] as { title: string; before: string; after: string }[],
   googleReviews: { url: 'https://share.google/sy3XCoSj15maT1CxE', rating: 5 as number | null, count: 42 as number | null, checkedOn: '18/09/2026' },
   testimonials: [
@@ -61,3 +63,4 @@ faqs: [
 };
 
 export type GeneralServicesContent = typeof generalServicesContent;
+

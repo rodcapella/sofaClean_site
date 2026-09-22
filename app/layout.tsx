@@ -9,9 +9,16 @@ export const metadata: Metadata = {
  keywords: ['higienização de sofás Porto', 'limpeza de tapetes Braga', 'higienização de colchões', 'limpeza de bancos de carros', 'limpeza ao domicílio Porto e Braga'],
  robots: { index: true, follow: true },
  icons: { icon: [{ url: '/favicon-16x16.png', type: 'image/png', sizes: '16x16' }, { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' }], apple: '/apple-touch-icon.png', shortcut: '/favicon-32x32.png', other: [{ rel: 'manifest', url: '/site.webmanifest' }] },
+  authors: [{ name: 'SofaClean' }],
+  other: { generator: 'Website desenvolvido pela Sapiente.AI' },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
- return <html lang="pt-PT"><body>{children}</body></html>;
+ return <html lang="pt-PT"><head>{/* Metadados de Autoria e Desenvolvimento */}<meta name="author" content="Sapiente.AI" /><meta name="creator" content="Sapiente.AI" /><meta name="publisher" content="Sapiente.AI" /><meta name="twitter:creator" content="https://x.com/SapienteAI" /><meta name="generator" content="Website desenvolvido pela Sapiente.AI" /><link rel="author" href="https://www.sapienteai.com/pt" /><link type="text/plain" rel="author" href="/humans.txt" /></head><body>{/*
+  ==================================================
+  Design, estruturação e desenvolvimento por Sapiente.AI
+  Website: https://www.sapienteai.com/pt
+  ==================================================
+ */}{children}</body></html>;
 }
 
 

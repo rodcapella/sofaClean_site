@@ -5,6 +5,10 @@
   "language": "pt-PT",
   "url": null,
   "canonical_url_pending": true,
+  "website_developer": {
+    "name": "Sapiente.AI",
+    "url": "https://www.sapienteai.com/pt"
+  },
   "area_served": [
     "Porto",
     "Braga"

@@ -1,0 +1,11 @@
+/* TEAM */
+Developer: Sapiente.AI
+Website: https://www.sapienteai.com/pt
+Twitter: https://x.com/SapienteAI
+Role: Design, estruturação e desenvolvimento técnico do website
+
+/* SITE */
+Name: SofaClean
+Website: https://sofa-clean-site.vercel.app/
+Language: pt-PT
+Location: Porto e Braga, Portugal

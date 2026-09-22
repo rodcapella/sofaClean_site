@@ -2,6 +2,10 @@
 
 > Higienização de sofás, tapetes, colchões e bancos de carros ao domicílio nas regiões do Porto e Braga, Portugal.
 
+## Desenvolvimento técnico
+Este website foi desenvolvido pela Sapiente.AI.
+Website: https://www.sapienteai.com/pt
+
 ## Identidade e contactos
 - Marca: SofaClean
 - Área de atendimento: regiões do Porto e Braga; confirmar a localidade antes da marcação.
