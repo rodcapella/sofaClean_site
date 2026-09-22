@@ -105,7 +105,7 @@
 @media(min-width:851px){.template .nav{height:110px}.template .brand-logo{width:260px;height:106px}.template .brand-logo img{width:100%;height:100%}}
 .template .outside-coverage-card .button{width:auto!important;min-width:0;margin-inline:auto}.template .footer-developer img{width:112px;height:50px}
 @media(max-width:850px){.template .brand-logo{width:64px;height:52px}.template .brand-logo img{width:64px;height:52px}.template .nav nav{margin-left:auto;margin-right:auto;gap:8px;font-size:11px}.template .nav nav a:nth-child(2){display:inline}.template .footer-developer img{width:112px;height:50px}}
-@media(min-width:851px){.template .footer-developer img{width:128px;height:56px}}
+@media(min-width:851px){.template .footer-developer img{width:170px;height:72px}}
 .template .final-social{margin:28px 0 0;color:#b5c3d7;font-size:14px}.template .final-social a{color:#3dabdb;font-weight:800;text-decoration:underline;text-underline-offset:3px}.template .final-social a:hover{color:#9fd000}
 
 .template .final-social{display:flex;flex-direction:column;align-items:center;gap:13px;margin:30px auto 0;color:#d9e4eb;font-size:15px;line-height:1.5}.template .final-social strong{font-weight:800}.template .instagram-link{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border:1px solid rgba(61,171,219,.55);border-radius:999px;color:#fff;font-weight:800;background:rgba(61,171,219,.12);transition:.2s}.template .instagram-link svg{width:19px;color:#3dabdb}.template .instagram-link:hover{background:#3dabdb;color:#fff;transform:translateY(-2px)}.template .instagram-link:hover svg{color:#fff}
