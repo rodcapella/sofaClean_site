@@ -1,4 +1,8 @@
-/*!`n * Theme/UI Architecture by Sapiente.AI`n * https://www.sapienteai.com/pt`n */`n.template .footer-contact{display:grid;grid-template-columns:repeat(2,max-content);justify-content:center;align-items:center;gap:12px 30px;margin-bottom:18px;font-size:14px}
+/*!
+ * Theme/UI Architecture by Sapiente.AI
+ * https://www.sapienteai.com/pt
+ */
+.template .footer-contact{display:grid;grid-template-columns:repeat(2,max-content);justify-content:center;align-items:center;gap:12px 30px;margin-bottom:18px;font-size:14px}
 .template .footer-contact a{display:inline-flex;align-items:center;justify-content:flex-start;gap:7px;color:#b2bfd0;white-space:nowrap}
 .template .footer-contact a svg{flex:0 0 auto}
 .template .footer-contact a:hover{color:#fff}
@@ -17,3 +21,4 @@
 .legal-modal-fallback{min-height:520px;display:grid;place-items:center;align-content:center;gap:14px;padding:30px;text-align:center;color:#64748b;background:#fff}.legal-modal-fallback a{display:inline-flex;padding:12px 18px;border-radius:10px;background:#3dabdb;color:#fff;font-weight:800}
 .legal-modal-content{flex:1;min-height:520px;overflow:auto;padding:28px 56px 42px;background:#fff;color:#172027}.legal-modal-content h1{font-size:clamp(1.7rem,3vw,2.4rem);margin:0 0 10px;color:#071d42}.legal-modal-content h2{font-size:1.15rem;margin:26px 0 8px;color:#071d42}.legal-modal-content p,.legal-modal-content li{line-height:1.7;color:#52647f}.legal-modal-content a{color:#237fa8;text-decoration:underline}@media(max-width:560px){.legal-modal-content{padding:22px 24px 34px}}
 html{scrollbar-width:thin;scrollbar-color:#3dabdb #0c1214}html::-webkit-scrollbar{width:10px}html::-webkit-scrollbar-track{background:#0c1214}html::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#3dabdb,#0877ea);border:2px solid #0c1214;border-radius:999px}html::-webkit-scrollbar-thumb:hover{background:#55c4ea}.contactModal{scrollbar-width:thin;scrollbar-color:#3dabdb #edf7ff}.contactModal::-webkit-scrollbar{width:9px}.contactModal::-webkit-scrollbar-track{background:#edf7ff;border-radius:999px}.contactModal::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#3dabdb,#0877ea);border:2px solid #edf7ff;border-radius:999px}
+
