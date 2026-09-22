@@ -1,0 +1,4 @@
+Contact: mailto:contacto@sapienteai.com
+Preferred-Languages: pt, en
+Policy: https://www.sapienteai.com/pt
+Canonical: https://sofa-clean-site.vercel.app/.well-known/security.txt

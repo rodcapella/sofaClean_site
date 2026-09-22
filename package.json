@@ -1,6 +1,7 @@
 {
-  "name": "medical-site-template",
-  "version": "0.1.0",
+  "name": "sofa-clean-site",
+  "version": "1.0.0",
+  "author": "Sapiente.AI contacto@sapienteai.com (https://www.sapienteai.com/pt)",
   "private": true,
   "engines": {
     "node": ">=22 <23"

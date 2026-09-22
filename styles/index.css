@@ -1,4 +1,4 @@
-.template .footer-contact{display:grid;grid-template-columns:repeat(2,max-content);justify-content:center;align-items:center;gap:12px 30px;margin-bottom:18px;font-size:14px}
+/*!`n * Theme/UI Architecture by Sapiente.AI`n * https://www.sapienteai.com/pt`n */`n.template .footer-contact{display:grid;grid-template-columns:repeat(2,max-content);justify-content:center;align-items:center;gap:12px 30px;margin-bottom:18px;font-size:14px}
 .template .footer-contact a{display:inline-flex;align-items:center;justify-content:flex-start;gap:7px;color:#b2bfd0;white-space:nowrap}
 .template .footer-contact a svg{flex:0 0 auto}
 .template .footer-contact a:hover{color:#fff}
