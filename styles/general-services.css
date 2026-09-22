@@ -97,3 +97,4 @@
 @media(min-width:851px){.template .work-photo{object-position:50% 18%}}
 .template .og-panel-image:hover{transform:none;filter:none;box-shadow:none}@media(max-width:520px){.template .og-panel-image{height:auto;min-height:0;max-height:none;object-fit:contain}}
 .template .outside-coverage-card .button{min-height:42px;padding:0 18px;font-size:13px;border-radius:9px}
+@media(min-width:851px){.template .nav{height:104px}.template .brand-logo{width:230px;height:94px}.template .brand-logo img{width:100%;height:100%}}
