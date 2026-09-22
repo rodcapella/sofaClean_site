@@ -18,6 +18,7 @@ export {
   Phone,
   Quote,
   ShieldCheck,
+  Share2,
   Sofa,
   Sparkles,
   SprayCan,
