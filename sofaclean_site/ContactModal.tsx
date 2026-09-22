@@ -32,6 +32,7 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
           <label>Serviço *<select name="topic" required defaultValue={initialTopic}><option value="" disabled>Escolha um serviço</option><option>Higienização de colchões</option><option>Higienização de poltronas</option><option>Higienização de sofás</option><option>Limpeza doméstica</option><option>Outros</option></select></label>
           <label className={"contactFull"}>Mensagem *<textarea name="message" required rows={4} placeholder="Conte-nos o que precisa..." /></label>
           <button className="button green" type="submit"><Mail size={18} /> Enviar pedido por email</button>
+          <p className="contactRequiredNote">Os campos assinalados com * são obrigatórios.</p>
         </form>
       </>}
     </section>
