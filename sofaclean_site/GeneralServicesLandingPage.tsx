@@ -20,7 +20,7 @@ export function GeneralServicesLandingPage({ content: c, demo = false, onOpenCon
   const canCall = !demo && /^\+?\d{7,15}$/.test(phoneDigits);
   const whatsapp = canWhatsApp ? `https://wa.me/${whatsappDigits}?text=${encodeURIComponent(c.whatsappMessage)}` : '#orcamento';
   const phone = canCall ? `tel:${phoneDigits}` : '#orcamento';
-  const contactProps = (topic = 'Higienização de estofos') => !canWhatsApp && onOpenContact ? { href: '#', onClick: (event: MouseEvent<HTMLAnchorElement>) => { event.preventDefault(); onOpenContact(topic); } } : { href: whatsapp };
+  const contactProps = (topic = 'Higienização de estofos') => !canWhatsApp && onOpenContact ? { href: '#', onClick: (event: MouseEvent<HTMLAnchorElement>) => { event.preventDefault(); onOpenContact(topic); } } : { href: whatsapp, target: '_blank', rel: 'noopener noreferrer' };
   return <div className="template">
     <a className="skip-link" href="#servicos-conteudo">Saltar para o conteúdo</a>
     <header className="nav shell"><div className="brand" aria-label={`${c.name} — início`}><span className="brand-logo"><Image unoptimized src="/sofaclean/logos/sofa-clean-logo.webp" alt="SofaClean" width={180} height={72} /></span><span><strong>{c.name}</strong><b>{c.tagline}</b></span></div><nav aria-label="Navegação de serviços"><a href="#servicos">Serviços</a><a href="#processo">Como funciona</a><a href="#faq">FAQ</a></nav><div className="nav-actions"><a className="nav-call" href="#contacto" onClick={(event) => { event.preventDefault(); onOpenContact?.('Higienização de estofos'); }}><Mail size={17} aria-hidden="true" />Contactos</a><a className="nav-phone" href="tel:+351920320174"><Phone size={17} aria-hidden="true" />Ligar</a></div></header>

@@ -4,7 +4,7 @@ export const metadata = { title: 'Termos e Condições | Sofa Clean Porto', desc
 export default function TermsPage() {
   return <LegalPage title="Termos e Condições" updatedAt="setembro de 2026">
     <h2>1. Identificação</h2>
-    <ul><li><strong>Marca:</strong> Sofa Clean Porto (serviço de limpeza e higienização profissional de estofos ao domicílio).</li><li><strong>Área de atuação:</strong> regiões do Porto e Braga, Portugal.</li><li><strong>Telefone / WhatsApp:</strong> <a href="tel:+351920320174">+351 920 320 174</a> · <a href="https://wa.me/351920320174">Contactar pelo WhatsApp</a>.</li></ul>
+    <ul><li><strong>Marca:</strong> Sofa Clean Porto (serviço de limpeza e higienização profissional de estofos ao domicílio).</li><li><strong>Área de atuação:</strong> regiões do Porto e Braga, Portugal.</li><li><strong>Telefone / WhatsApp:</strong> <a href="tel:+351920320174">+351 920 320 174</a> · <a target="_blank" rel="noopener noreferrer" href="https://wa.me/351920320174">Contactar pelo WhatsApp</a>.</li></ul>
     <h2>2. Objeto</h2>
     <p>A Sofa Clean Porto presta serviços de limpeza, higienização e impermeabilização profissional de sofás, colchões, tapetes, cadeiras e outros estofos, realizados no domicílio do cliente ou em local previamente acordado entre as partes.</p>
     <h2>3. Orçamentos e reservas</h2>
@@ -31,3 +31,4 @@ export default function TermsPage() {
     <p>Em caso de litígio de consumo, o consumidor pode recorrer ao Centro Nacional de Informação e Arbitragem de Conflitos de Consumo (CNIACC), com sítio em <a href="https://www.cniacc.pt/">www.cniacc.pt</a>. Os presentes Termos e Condições regem-se integralmente pela lei portuguesa. Para a resolução de quaisquer litígios emergentes deste contrato que não sejam resolvidos por via arbitral, será competente o tribunal da comarca do Porto.</p>
   </LegalPage>;
 }
+

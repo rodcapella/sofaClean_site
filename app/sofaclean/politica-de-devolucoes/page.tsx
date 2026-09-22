@@ -33,6 +33,7 @@ export default function ReturnsPolicyPage() {
     <p>Os dados recolhidos no âmbito do agendamento e prestação dos serviços (nome, contacto telefónico, morada e e-mail) destinam-se exclusivamente à gestão comercial, faturação e comunicação com o cliente, sendo tratados em estrito cumprimento do Regulamento Geral de Proteção de Dados (RGPD).</p>
     <h2>8. Contactos</h2>
     <p>Para esclarecimento de dúvidas, marcações ou apresentação de reclamações ao abrigo desta política, poderá contactar a Sofa Clean Porto através de:</p>
-    <ul><li>WhatsApp: <a href="https://wa.me/351920320174">+351 920 320 174</a></li><li>Telefone: <a href="tel:+351920320174">+351 920 320 174</a></li></ul>
+    <ul><li>WhatsApp: <a target="_blank" rel="noopener noreferrer" href="https://wa.me/351920320174">+351 920 320 174</a></li><li>Telefone: <a href="tel:+351920320174">+351 920 320 174</a></li></ul>
   </LegalPage>;
 }
+

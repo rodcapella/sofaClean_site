@@ -1,8 +1,8 @@
 import { Building2, SprayCan, Sofa, Armchair, BedDouble, Hotel, House, Paintbrush, ShieldCheck, CalendarCheck, Sparkles } from 'lucide-react';
 
 export const generalServicesContent = {
-  name: 'SofaClean',
-  tagline: 'Higienização de estofos',
+  name: 'Sofa Clean',
+  tagline: 'Higienização de estofados.',
   area: 'Porto e Braga',
   address: 'Porto e Braga, Portugal',
   mapQuery: 'Porto, Portugal',

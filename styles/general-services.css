@@ -92,7 +92,6 @@
 .template .work-photo,.template .service-thumbnail,.template .during-service-grid figure img,.template .gallery img,.template .og-panel-image{transition:transform .28s ease,filter .28s ease,box-shadow .28s ease}.template .work-photo:hover,.template .service-thumbnail:hover,.template .during-service-grid figure:hover img,.template .gallery>div:hover img,.template .og-panel-image:hover{transform:scale(1.035);filter:saturate(1.06);box-shadow:0 14px 30px rgba(7,29,66,.18)}.template .during-service-grid figure,.template .gallery>div{overflow:hidden}
 .template .service-card>a svg,.template .benefit-intro>a svg,.template .faq-intro>a svg,.template .faq-answer-link svg,.template .outside-coverage-card a svg{color:currentColor}.template .button svg{color:currentColor}
 .template,.template *{scrollbar-width:thin;scrollbar-color:#3dabdb transparent}.template ::-webkit-scrollbar{width:9px;height:9px}.template ::-webkit-scrollbar-track{background:transparent}.template ::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#3dabdb,#0877ea);border:3px solid transparent;border-radius:999px;background-clip:content-box}.template ::-webkit-scrollbar-thumb:hover{background:linear-gradient(180deg,#55c4ea,#2f91b8);background-clip:content-box}
-.template .final-cta .button:hover{transform:none;box-shadow:none}
 .template .steps article{padding-top:34px}.template .steps article>b{top:-8px;color:#3dabdb;font-size:42px;z-index:2;line-height:1}.template .steps article>svg{margin-top:18px}
 .template .outside-coverage{width:100%;padding:36px 0}.template .outside-coverage-card{width:100%;max-width:none;border-radius:0;padding:44px 24px}
 .template .back-to-top{display:flex;align-items:center;justify-content:center;gap:7px;width:max-content;margin:30px auto 0;color:#3dabdb;font-size:13px;font-weight:800}.template .back-to-top svg{width:15px;transform:rotate(-90deg);color:currentColor}.template .back-to-top:hover{text-decoration:underline;text-underline-offset:4px}
@@ -102,10 +101,10 @@
 @media(min-width:851px){.template .work-photo{object-position:50% 18%}}
 .template .og-panel-image:hover{transform:none;filter:none;box-shadow:none}@media(max-width:520px){.template .og-panel-image{height:auto;min-height:0;max-height:none;object-fit:contain}}
 .template .outside-coverage-card .button{min-height:42px;padding:0 18px;font-size:13px;border-radius:9px}
-@media(min-width:851px){.template .nav{height:110px}.template .brand-logo{width:260px;height:106px}.template .brand-logo img{width:100%;height:100%}}
+@media(min-width:851px){.template .nav{height:120px}.template .brand-logo{width:300px;height:120px}.template .brand-logo img{width:100%;height:100%}}
 .template .outside-coverage-card .button{width:auto!important;min-width:0;margin-inline:auto}.template .footer-developer img{width:112px;height:50px}
 @media(max-width:850px){.template .brand-logo{width:64px;height:52px}.template .brand-logo img{width:64px;height:52px}.template .nav nav{margin-left:auto;margin-right:auto;gap:8px;font-size:11px}.template .nav nav a:nth-child(2){display:inline}.template .footer-developer img{width:112px;height:50px}}
-@media(min-width:851px){.template .footer-developer img{width:170px;height:72px}}
+@media(min-width:851px){.template .footer-developer img{width:210px;height:86px}}
 .template .final-social{margin:28px 0 0;color:#b5c3d7;font-size:14px}.template .final-social a{color:#3dabdb;font-weight:800;text-decoration:underline;text-underline-offset:3px}.template .final-social a:hover{color:#9fd000}
 
 .template .final-social{display:flex;flex-direction:column;align-items:center;gap:13px;margin:30px auto 0;color:#d9e4eb;font-size:15px;line-height:1.5}.template .final-social strong{font-weight:800}.template .instagram-link{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border:1px solid rgba(61,171,219,.55);border-radius:999px;color:#fff;font-weight:800;background:rgba(61,171,219,.12);transition:.2s}.template .instagram-link svg{width:19px;color:#3dabdb}.template .instagram-link:hover{background:#3dabdb;color:#fff;transform:translateY(-2px)}.template .instagram-link:hover svg{color:#fff}
