@@ -3,8 +3,8 @@
   "name": "SofaClean",
   "description": "Higienização de sofás, tapetes, colchões e bancos de carros ao domicílio nas regiões do Porto e Braga.",
   "language": "pt-PT",
-  "url": null,
-  "canonical_url_pending": true,
+  "url": "https://www.sofacleanpt.pt/",
+  "canonical_url_pending": false,
   "website_developer": {
     "name": "Sapiente.AI",
     "url": "https://www.sapienteai.com/pt"
@@ -27,6 +27,7 @@
   ],
   "contact": {
     "telephone": "+351920320174",
+    "email": "sofaclean.porto@gmail.com",
     "whatsapp": "https://wa.me/351920320174"
   },
   "entity_signals": {
@@ -75,3 +76,5 @@
     "last_reviewed": "2026-09-19"
   }
 }
+
+

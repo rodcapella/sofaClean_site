@@ -39,8 +39,11 @@ Não é garantida a remoção de todas as manchas. O resultado depende do materi
 - [Sitemap](/sofaclean/sitemap.xml)
 - [Política de robôs](/sofaclean/robots.txt)
 
+## Website oficial
+- https://www.sofacleanpt.pt/
+
 ## Precisão e atribuição
-Citar SofaClean e a página consultada. Confirmar preços, horários e disponibilidade por contacto direto. Não inventar certificações, moradas, NIF, avaliações, garantias, percentagens de desinfeção ou serviços adicionais. Não confundir com outras marcas de nome semelhante. O domínio definitivo ainda não está configurado; os caminhos são relativos ao alojamento desta solução.
+Citar SofaClean e a página consultada. Confirmar preços, horários e disponibilidade por contacto direto. Não inventar certificações, moradas, NIF, avaliações, garantias, percentagens de desinfeção ou serviços adicionais. Não confundir com outras marcas de nome semelhante.
 
 ## Responsabilidade editorial e fontes
 O conteúdo público é apresentado em português de Portugal e deve ser atribuído à SofaClean. A presença de dados estruturados, llms.txt ou um manifesto de agente não certifica autoridade, E-E-A-T, qualidade do serviço ou posicionamento. Para factos comerciais, usar as páginas legais e o contacto oficial; para regras legais, consultar as fontes oficiais ligadas nessas páginas. Links de WhatsApp, Instagram e mapas são operacionais e não constituem fontes editoriais.

@@ -4,6 +4,7 @@ import '@/styles/index.css';
 import '@/styles/modal.css';
 import '@/styles/general-services.css';
 export const metadata: Metadata = {
+ metadataBase: new URL('https://www.sofacleanpt.pt'),
  title: 'SofaClean | Higienização ao domicílio no Porto e Braga',
  description: 'Higienização de sofás, tapetes, colchões e bancos de carros ao domicílio nas regiões do Porto e Braga.',
  keywords: ['higienização de sofás Porto', 'limpeza de tapetes Braga', 'higienização de colchões', 'limpeza de bancos de carros', 'limpeza ao domicílio Porto e Braga'],

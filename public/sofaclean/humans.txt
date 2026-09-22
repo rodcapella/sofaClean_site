@@ -6,6 +6,6 @@ Role: Design, estruturação e desenvolvimento técnico do website
 
 /* SITE */
 Name: SofaClean
-Website: https://sofa-clean-site.vercel.app/
+Website: https://www.sofacleanpt.pt/
 Language: pt-PT
 Location: Porto e Braga, Portugal

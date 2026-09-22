@@ -39,8 +39,11 @@ Não é garantida a remoção de todas as manchas. O resultado depende do materi
 - [Sitemap](/sofaclean/sitemap.xml)
 - [Política de robôs](/sofaclean/robots.txt)
 
+## Website oficial
+- https://www.sofacleanpt.pt/
+
 ## Precisão e atribuição
-Citar SofaClean e a página consultada. Confirmar preços, horários e disponibilidade por contacto direto. Não inventar certificações, moradas, NIF, avaliações, garantias, percentagens de desinfeção ou serviços adicionais. Não confundir com outras marcas de nome semelhante. O domínio definitivo ainda não está configurado; os caminhos são relativos ao alojamento desta solução.
+Citar SofaClean e a página consultada. Confirmar preços, horários e disponibilidade por contacto direto. Não inventar certificações, moradas, NIF, avaliações, garantias, percentagens de desinfeção ou serviços adicionais. Não confundir com outras marcas de nome semelhante.
 
 ## Prestação do serviço
 O cliente descreve o artigo e a localização. A equipa avalia o pedido, apresenta as condições e combina a intervenção após aceitação. As limitações do tecido e danos preexistentes devem ser analisados antes do tratamento. Trabalhos adicionais exigem acordo prévio.
