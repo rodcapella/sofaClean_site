@@ -11,8 +11,8 @@ Disallow: /api
 Disallow: /node_modules/
 Disallow: /.git/
 
-# Sitemap: substituir DOMINIO-DA-SOFACLEAN pelo domínio final
-Sitemap: https://DOMINIO-DA-SOFACLEAN/sitemap.xml
+# Sitemap
+Sitemap: https://www.sofacleanpt.pt/sitemap.xml
 
 # Crawlers de pesquisa
 User-agent: Googlebot
@@ -54,7 +54,7 @@ User-agent: CCBot
 Allow: /
 
 # Recursos de descoberta legíveis por máquinas
-# Contexto conciso: https://DOMINIO-DA-SOFACLEAN/sofaclean/llms.txt
-# Contexto completo: https://DOMINIO-DA-SOFACLEAN/sofaclean/llms-full.txt
-# Perfil estruturado: https://DOMINIO-DA-SOFACLEAN/sofaclean/ai.json
-# Manifesto de agente: https://DOMINIO-DA-SOFACLEAN/sofaclean/.well-known/agent.json
+# Contexto conciso: https://www.sofacleanpt.pt/sofaclean/llms.txt
+# Contexto completo: https://www.sofacleanpt.pt/sofaclean/llms-full.txt
+# Perfil estruturado: https://www.sofacleanpt.pt/sofaclean/ai.json
+# Manifesto de agente: https://www.sofacleanpt.pt/.well-known/agent.json

@@ -1,1 +1,1 @@
-export { default } from './sofaclean/page';
+export { default, metadata } from './sofaclean/page';

@@ -1,6 +1,6 @@
 # SofaClean
 
-> Higienização de sofás, tapetes, colchões e bancos de carros ao domicílio nas regiões do Porto e Braga, Portugal.
+> Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga.
 
 ## Desenvolvimento técnico
 Este website foi desenvolvido pela Sapiente.AI.
@@ -9,35 +9,41 @@ Website: https://www.sapienteai.com/pt
 ## Identidade e contactos
 - Marca: SofaClean
 - Área de atendimento: regiões do Porto e Braga; confirmar a localidade antes da marcação.
-- Telefone e WhatsApp: +351 920 320 174
-- [WhatsApp](https://wa.me/351920320174)
+- Telefone e WhatsApp: +351 925 535 456
+- [WhatsApp](https://wa.me/351925535456)
 - [Instagram oficial](https://www.instagram.com/sofaclean.porto)
+- [TikTok oficial](https://www.tiktok.com/@sofaclean.porto)
 - Idioma: português de Portugal.
 
 ## Páginas
-- [Início e serviços](/sofaclean)
-- [Perguntas frequentes](/sofaclean#faq)
-- [Termos e condições](/sofaclean/termos-e-condicoes)
-- [Privacidade](/sofaclean/privacidade)
-- [Política de Devoluções](/sofaclean/politica-de-devolucoes)
+- [Início e serviços](https://www.sofacleanpt.pt/sofaclean)
+- [Perguntas frequentes](https://www.sofacleanpt.pt/sofaclean#faq)
+- [Termos e condições](https://www.sofacleanpt.pt/sofaclean/termos-e-condicoes)
+- [Privacidade](https://www.sofacleanpt.pt/sofaclean/privacidade)
+- [Política de Reembolsos e Cancelamentos](https://www.sofacleanpt.pt/sofaclean/politica-de-devolucoes)
 - [Livro de Reclamações](https://www.livroreclamacoes.pt/Inicio/)
+
+## Terminologia dos serviços
+Estofados e estofos são termos usados para os revestimentos acolchoados de peças como sofás, poltronas e bancos de carro. A SofaClean apresenta serviços de higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização, mediante avaliação. Estes termos não indicam serviços adicionais aos publicados.
 
 ## Respostas diretas
 ### O que faz a SofaClean?
-Higienização de sofás; limpeza profissional de tapetes; higienização de colchões; higienização de bancos de carros; Higienização de poltronas; Limpeza de alojamento; Limpeza de escritórios; Limpeza doméstica; Limpeza em geral; Limpeza pós obra. Valores a consultar para todos os serviços.
+Higienização de sofás; Higienização de poltronas; Higienização de colchões; Limpeza de tapete; Limpeza de banco de carro; Impermeabilização. Valores a consultar para todos os serviços.
+### Em que consiste a impermeabilização?
+Tratamento de proteção dos estofos para ajudar a reduzir a absorção de líquidos, sujeito à avaliação e compatibilidade do tecido. Não garante proteção total contra manchas.
 ### Onde atua?
 Nas regiões do Porto e Braga. A cobertura da localidade, disponibilidade e deslocação são confirmadas no orçamento.
 ### Como pedir orçamento?
-Contactar o WhatsApp +351 920 320 174 com localidade, tipo e dimensão do artigo e, se possível, fotografias.
+Contactar o WhatsApp +351 925 535 456 com localidade, tipo e dimensão do artigo e, se possível, fotografias.
 ### Todas as manchas desaparecem?
 Não é garantida a remoção de todas as manchas. O resultado depende do material, conservação e origem da mancha.
 
 ## Recursos para sistemas de pesquisa e IA
-- [Contexto completo](/sofaclean/llms-full.txt)
-- [Perfil estruturado](/sofaclean/ai.json)
-- [Manifesto](/sofaclean/.well-known/agent.json)
-- [Sitemap](/sofaclean/sitemap.xml)
-- [Política de robôs](/sofaclean/robots.txt)
+- [Contexto completo](https://www.sofacleanpt.pt/sofaclean/llms-full.txt)
+- [Perfil estruturado](https://www.sofacleanpt.pt/sofaclean/ai.json)
+- [Manifesto](https://www.sofacleanpt.pt/.well-known/agent.json)
+- [Sitemap](https://www.sofacleanpt.pt/sofaclean/sitemap.xml)
+- [Política de robôs](https://www.sofacleanpt.pt/sofaclean/robots.txt)
 
 ## Website oficial
 - https://www.sofacleanpt.pt/
@@ -52,7 +58,7 @@ O cliente descreve o artigo e a localização. A equipa avalia o pedido, apresen
 Secagem média de 3 a 6 horas, dependendo da ventilação, do tecido e das condições do espaço.
 
 ## Informação comercial
-Valores dos serviços a consultar. A Política de Devoluções descreve a garantia de repetição mediante reclamação validada em 48 horas, cancelamento com 24 horas de antecedência e taxa de 20,00 € (ou outra quantia previamente acordada) nas condições aí indicadas. Consultar a política para os detalhes e exceções.
+Valores dos serviços a consultar. A Política de Reembolsos e Cancelamentos prevê comunicação de insatisfação em até 48 horas e repetição da intervenção mediante reclamação validada. Cancelamentos devem ser comunicados com pelo menos 24 horas de antecedência; cancelamentos tardios ou ausência podem implicar taxa de deslocação. Pagamentos antecipados são integralmente reembolsados pelo mesmo meio quando o serviço é cancelado mais de 24 horas antes. A política indica que não são efetuados reembolsos monetários diretos após a execução. Consultar a página para as condições completas.
 
 ## Privacidade e contratação
 O contacto é realizado por telefone ou WhatsApp. A página não contém formulário de recolha de dados nem carregamento automático de mapas. As páginas legais explicam as condições do serviço, os direitos do consumidor e o tratamento dos dados de contacto. Não interpretar a marcação como consentimento automático para renunciar a direitos legais.

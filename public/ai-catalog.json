@@ -1,0 +1,68 @@
+{
+  "specVersion": "1.0",
+  "host": "www.sofacleanpt.pt",
+  "publisher": {
+    "name": "SofaClean",
+    "url": "https://www.sofacleanpt.pt/",
+    "contact": "sofaclean.porto@gmail.com",
+    "sameAs": [
+      "https://www.instagram.com/sofaclean.porto",
+      "https://www.tiktok.com/@sofaclean.porto"
+    ],
+    "websiteDeveloper": {
+      "name": "Sapiente.AI",
+      "url": "https://www.sapienteai.com/pt",
+      "contact": "contacto@sapienteai.com"
+    },
+    "services": [
+      "Higienização de sofás",
+      "Higienização de poltronas",
+      "Higienização de colchões",
+      "Limpeza de tapete",
+      "Limpeza de banco de carro",
+      "Impermeabilização"
+    ]
+  },
+  "entries": [
+    {
+      "identifier": "urn:ai:sofaclean:contact-request",
+      "displayName": "Pedido de orçamento SofaClean",
+      "description": "Formulário de contacto para solicitar informações ou orçamento para higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga. O valor é avaliado e confirmado pela equipa antes da marcação.",
+      "tags": [
+        "higienização",
+        "orçamento",
+        "sofá",
+        "poltrona",
+        "colchão",
+        "tapete",
+        "banco de carro",
+        "impermeabilização",
+        "Porto",
+        "Braga",
+        "estofados",
+        "estofos",
+        "sofás",
+        "poltronas",
+        "colchões",
+        "tapetes",
+        "bancos de carro"
+      ],
+      "capabilities": [
+        "contact-request",
+        "quote-request"
+      ],
+      "endpoint": "https://www.sofacleanpt.pt/api/contact",
+      "method": "POST",
+      "representativeQueries": [
+        "Como posso pedir um orçamento para higienizar um sofá no Porto?",
+        "A SofaClean limpa tapetes e colchões em Braga?",
+        "Como pedir a higienização de bancos de carro ao domicílio?",
+        "Como pedir um orçamento para impermeabilização de estofos?",
+        "A SofaClean faz higienização de estofados e estofos no Porto e Braga?",
+        "Como pedir a limpeza de sofás e poltronas?"
+      ]
+    }
+  ],
+  "trustManifest": "https://www.sofacleanpt.pt/.well-known/agent.json",
+  "created": "2026-09-23T00:00:00Z"
+}

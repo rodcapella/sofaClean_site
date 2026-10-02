@@ -3,7 +3,7 @@
 export function SofaCleanWhatsApp() {
   const label = 'Precisa de ajuda?';
   const message = 'Olá! Gostaria de pedir um orçamento à SofaClean.';
-  const href = `https://wa.me/351920320174?text=${encodeURIComponent(message)}`;
+  const href = `https://wa.me/351925535456?text=${encodeURIComponent(message)}`;
 
   return (
     <a

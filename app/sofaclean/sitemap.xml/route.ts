@@ -1,5 +1,5 @@
-export function GET(request: Request) {
-  const origin = new URL(request.url).origin;
+export function GET() {
+  const origin = 'https://www.sofacleanpt.pt';
   const escapeXml = (value: string) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('"', '&quot;');
   const urls = [
     ['/sofaclean', '1.0'],

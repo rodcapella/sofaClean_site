@@ -22,8 +22,8 @@ Faltam confirmar domínio, denominação legal, NIF, morada, email, entidade RAL
 
 O Livro de Reclamações liga ao portal oficial geral; não afirma que o registo da empresa já foi verificado. Substituir pelo link da entidade quando disponível.
 
-Os caminhos de descoberta estão limitados a `/sofaclean` para não atribuir os outros templates à empresa. Na instalação em domínio próprio, rever os caminhos e colocar robots.txt na raiz do domínio com Sitemap absoluto. Nesta aplicação, o robots.txt dentro de `/sofaclean` é apenas informativo. A diretiva noindex herdada da demonstração permanece ativa até à configuração de produção. Não foram inventados domínio, canonical, email nem morada física.
+Domínio oficial: https://www.sofacleanpt.pt/. Metadados, URLs canónicas, sitemaps, robots.txt e recursos de SEO/GEO/AEO usam este domínio. Os caminhos existentes em `/sofaclean` são preservados; o robots.txt da raiz controla a descoberta.
 
-O módulo não carrega mapas ou ferramentas de marketing automaticamente. WhatsApp, Instagram e Google Maps são links externos. O componente global de contactos demonstrativos é omitido nesta rota.
+O módulo não carrega mapas ou ferramentas de marketing automaticamente. WhatsApp, Instagram, TikTok e Google Maps são links externos. O componente global de contactos demonstrativos é omitido nesta rota.
 
 Validação: `npm run typecheck`, `npm run lint`, `npm run build` e inspeção do navegador.

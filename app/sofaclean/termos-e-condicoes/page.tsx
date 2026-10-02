@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { LegalPage } from '@/sofaclean_site/LegalPage';
-export const metadata = { title: 'Termos e Condições | Sofa Clean Porto', description: 'Orçamentos, serviços, pagamentos, cancelamentos e condições da Sofa Clean Porto.' };
+export const metadata = { alternates: { canonical: 'https://www.sofacleanpt.pt/sofaclean/termos-e-condicoes' }, title: 'Termos e Condições | Sofa Clean Porto', description: 'Orçamentos, serviços, pagamentos, cancelamentos e condições da Sofa Clean Porto.' };
 export default function TermsPage() {
   return <LegalPage title="Termos e Condições" updatedAt="setembro de 2026">
     <h2>1. Identificação</h2>
-    <ul><li><strong>Marca:</strong> Sofa Clean Porto (serviço de limpeza e higienização profissional de estofos ao domicílio).</li><li><strong>Área de atuação:</strong> regiões do Porto e Braga, Portugal.</li><li><strong>Telefone / WhatsApp:</strong> <a href="tel:+351920320174">+351 920 320 174</a> · <a target="_blank" rel="noopener noreferrer" href="https://wa.me/351920320174">Contactar pelo WhatsApp</a>.</li></ul>
+    <ul><li><strong>Marca:</strong> Sofa Clean Porto (serviço de limpeza e higienização profissional de estofos ao domicílio).</li><li><strong>Área de atuação:</strong> regiões do Porto e Braga, Portugal.</li><li><strong>Telefone / WhatsApp:</strong> <a href="tel:+351925535456">+351 925 535 456</a> · <a target="_blank" rel="noopener noreferrer" href="https://wa.me/351925535456">Contactar pelo WhatsApp</a>.</li></ul>
     <h2>2. Objeto</h2>
     <p>A Sofa Clean Porto presta serviços de limpeza, higienização e impermeabilização profissional de sofás, colchões, tapetes, cadeiras e outros estofos, realizados no domicílio do cliente ou em local previamente acordado entre as partes.</p>
     <h2>3. Orçamentos e reservas</h2>

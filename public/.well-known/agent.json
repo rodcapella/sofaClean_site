@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "name": "Sofa Clean",
+  "description": "Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga. O site não disponibiliza uma API pública de reservas.",
+  "url": "https://www.sofacleanpt.pt/",
+  "sameAs": [
+    "https://www.instagram.com/sofaclean.porto",
+    "https://www.tiktok.com/@sofaclean.porto"
+  ],
+  "languages": [
+    "pt-PT"
+  ],
+  "contact": {
+    "telephone": "+351925535456",
+    "email": "sofaclean.porto@gmail.com",
+    "whatsapp": "https://wa.me/351925535456"
+  },
+  "area_served": [
+    "Porto",
+    "Braga"
+  ],
+  "website_developer": {
+    "name": "Sapiente.AI",
+    "url": "https://www.sapienteai.com/pt"
+  },
+  "discovery": {
+    "llms": "https://www.sofacleanpt.pt/sofaclean/llms.txt",
+    "llms_full": "https://www.sofacleanpt.pt/sofaclean/llms-full.txt",
+    "ai_json": "https://www.sofacleanpt.pt/sofaclean/ai.json",
+    "ai_catalog": "https://www.sofacleanpt.pt/ai-catalog.json",
+    "agent_manifest": "https://www.sofacleanpt.pt/.well-known/agent.json",
+    "sitemap": "https://www.sofacleanpt.pt/sitemap.xml",
+    "robots": "https://www.sofacleanpt.pt/robots.txt"
+  },
+  "content_signals": {
+    "ai_train": false,
+    "search": true,
+    "ai_input": true
+  },
+  "capabilities": [
+    "public-business-information",
+    "service-information",
+    "contact-request"
+  ],
+  "services": [
+    "Higienização de sofás",
+    "Higienização de poltronas",
+    "Higienização de colchões",
+    "Limpeza de tapete",
+    "Limpeza de banco de carro",
+    "Impermeabilização"
+  ],
+  "keywords": [
+    "estofados",
+    "estofos",
+    "sofás",
+    "poltronas",
+    "colchões",
+    "tapetes",
+    "bancos de carro",
+    "impermeabilização"
+  ]
+}
