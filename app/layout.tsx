@@ -1,3 +1,5 @@
+import { ThemePreview } from '@/sofaclean_site/ThemePreview';
+import '@/styles/theme-preview.css';
 import type { Metadata } from 'next';
 import '@/styles/globals.css';
 import '@/styles/index.css';
@@ -19,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   Design, estruturação e desenvolvimento por Sapiente.AI
   Website: https://www.sapienteai.com/pt
   ==================================================
- */}{children}</body></html>;
+ */}<ThemePreview />{children}</body></html>;
 }
 
 
