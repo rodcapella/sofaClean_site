@@ -23,7 +23,7 @@ export function ContactModal({ isOpen, onClose, initialTopic = '' }: ContactModa
       <button className={"contactClose"} type="button" onClick={onClose} aria-label="Fechar contacto"><X size={20} /></button>
       {sent ? <div className={"contactSuccess"}><CheckCircle2 size={44} /><h2>Pedido enviado</h2><p>Recebemos o seu pedido por email. Entraremos em contacto assim que possível.</p><button className="button green" type="button" onClick={onClose}>Fechar</button></div> : <>
         <div className={"contactHeading"}><span className={"contactIcon"}><MessageCircle size={22} /></span><div><span className="kicker">CONTACTO</span><h2 id="contact-title">Peça o seu orçamento</h2></div></div>
-        <p className={"contactIntro"}>Partilhe os detalhes do serviço e respondemos com uma proposta à sua medida para o Porto, Braga e arredores.</p>
+        <p className={"contactIntro"}>Partilhe os detalhes do serviço e respondemos com uma proposta à sua medida para o Porto e Braga e região.</p>
         <form className={"contactForm"} onSubmit={submit}>
           <label>Nome *<input name="name" required placeholder="O seu nome" /></label>
           <label>Email *<input name="email" type="email" required placeholder="nome@email.com" /></label>

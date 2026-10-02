@@ -131,3 +131,5 @@
 /* Imagens dos serviços com a proporção de referência 600 × 430. */
 .template .services .service-top{min-height:0}
 .template .services .service-thumbnail{width:100%;max-width:600px;height:auto;aspect-ratio:600/430;object-fit:contain;margin-inline:auto}
+
+.template .services .services-heading{display:flex;justify-content:center;text-align:center}

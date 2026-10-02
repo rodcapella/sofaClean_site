@@ -5,9 +5,9 @@ import '@/styles/modal.css';
 import '@/styles/general-services.css';
 export const metadata: Metadata = {
  metadataBase: new URL('https://www.sofacleanpt.pt'),
- title: 'SofaClean | Higienização ao domicílio no Porto e Braga',
- description: 'Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga.',
- keywords: ['higienização de estofados', 'limpeza de estofos', 'higienização de sofás Porto', 'limpeza de tapetes Braga', 'higienização de colchões', 'limpeza de bancos de carros', 'impermeabilização de estofos', 'higienização de poltronas', 'limpeza ao domicílio Porto e Braga'],
+ title: 'SofaClean | Higienização ao domicílio no Porto e Braga e região',
+ description: 'Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga e região.',
+ keywords: ['higienização de estofados', 'limpeza de estofos', 'higienização de sofás Porto', 'limpeza de tapetes Braga', 'higienização de colchões', 'limpeza de bancos de carros', 'impermeabilização de estofos', 'higienização de poltronas', 'limpeza ao domicílio Porto e Braga e região'],
  robots: { index: true, follow: true },
  icons: { icon: [{ url: '/sofaclean/icons/favicon-16x16.png', type: 'image/png', sizes: '16x16' }, { url: '/sofaclean/icons/favicon-32x32.png', type: 'image/png', sizes: '32x32' }], apple: '/sofaclean/icons/apple-touch-icon.png', shortcut: '/sofaclean/icons/favicon-32x32.png', other: [{ rel: 'manifest', url: '/site.webmanifest' }] },
   authors: [{ name: 'SofaClean' }],

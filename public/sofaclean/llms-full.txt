@@ -1,6 +1,6 @@
 # SofaClean
 
-> Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga.
+> Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga e região.
 
 ## Desenvolvimento técnico
 Este website foi desenvolvido pela Sapiente.AI.
@@ -8,7 +8,7 @@ Website: https://www.sapienteai.com/pt
 
 ## Identidade e contactos
 - Marca: SofaClean
-- Área de atendimento: regiões do Porto e Braga; confirmar a localidade antes da marcação.
+- Área de atendimento: regiões do Porto e Braga e região; confirmar a localidade antes da marcação.
 - Telefone e WhatsApp: +351 925 535 456
 - [WhatsApp](https://wa.me/351925535456)
 - [Instagram oficial](https://www.instagram.com/sofaclean.porto)
@@ -32,7 +32,7 @@ Higienização de sofás; Higienização de poltronas; Higienização de colchõ
 ### Em que consiste a impermeabilização?
 Tratamento de proteção dos estofos para ajudar a reduzir a absorção de líquidos, sujeito à avaliação e compatibilidade do tecido. Não garante proteção total contra manchas.
 ### Onde atua?
-Nas regiões do Porto e Braga. A cobertura da localidade, disponibilidade e deslocação são confirmadas no orçamento.
+Nas regiões do Porto e Braga e região. A cobertura da localidade, disponibilidade e deslocação são confirmadas no orçamento.
 ### Como pedir orçamento?
 Contactar o WhatsApp +351 925 535 456 com localidade, tipo e dimensão do artigo e, se possível, fotografias.
 ### Todas as manchas desaparecem?

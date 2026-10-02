@@ -1,5 +1,5 @@
 # robots.txt for SofaClean
-# Higienização de sofás e estofados no Porto e Braga
+# Higienização de sofás e estofados no Porto e Braga e região
 
 User-agent: *
 Allow: /

@@ -27,7 +27,7 @@
     {
       "identifier": "urn:ai:sofaclean:contact-request",
       "displayName": "Pedido de orçamento SofaClean",
-      "description": "Formulário de contacto para solicitar informações ou orçamento para higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga. O valor é avaliado e confirmado pela equipa antes da marcação.",
+      "description": "Formulário de contacto para solicitar informações ou orçamento para higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga e região. O valor é avaliado e confirmado pela equipa antes da marcação.",
       "tags": [
         "higienização",
         "orçamento",
@@ -58,7 +58,7 @@
         "A SofaClean limpa tapetes e colchões em Braga?",
         "Como pedir a higienização de bancos de carro ao domicílio?",
         "Como pedir um orçamento para impermeabilização de estofos?",
-        "A SofaClean faz higienização de estofados e estofos no Porto e Braga?",
+        "A SofaClean faz higienização de estofados e estofos no Porto e Braga e região?",
         "Como pedir a limpeza de sofás e poltronas?"
       ]
     }

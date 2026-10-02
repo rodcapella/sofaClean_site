@@ -2,7 +2,7 @@
 
 Módulo da aplicação principal, disponível em `/sofaclean`. Usa as dependências e comandos da raiz.
 
-- `content.ts`: marca, serviços, FAQ, Porto e Braga, telefone e WhatsApp.
+- `content.ts`: marca, serviços, FAQ, Porto e Braga e região, telefone e WhatsApp.
 - `SofaCleanPage.tsx`: ligação do conteúdo ao componente no cliente.
 - `GeneralServicesLandingPage.tsx`: página e rodapé com contactos reais.
 - `LegalPage.tsx`: apresentação comum das páginas legais.

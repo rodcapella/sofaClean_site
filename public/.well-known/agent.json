@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "name": "Sofa Clean",
-  "description": "Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga. O site não disponibiliza uma API pública de reservas.",
+  "description": "Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga e região. O site não disponibiliza uma API pública de reservas.",
   "url": "https://www.sofacleanpt.pt/",
   "sameAs": [
     "https://www.instagram.com/sofaclean.porto",
@@ -17,7 +17,8 @@
   },
   "area_served": [
     "Porto",
-    "Braga"
+    "Braga",
+    "Porto e Braga e região"
   ],
   "website_developer": {
     "name": "Sapiente.AI",

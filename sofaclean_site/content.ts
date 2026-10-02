@@ -3,10 +3,10 @@ import { Building2, Sofa, Armchair, BedDouble, Car, Layers, ShieldCheck, Calenda
 export const generalServicesContent = {
   name: 'Sofa Clean',
   tagline: 'Higienização de sofá.',
-  area: 'Porto e Braga',
-  address: 'Porto e Braga, Portugal',
+  area: 'Porto e Braga e região',
+  address: 'Porto e Braga e região, Portugal',
   mapQuery: 'Porto, Portugal',
-  title: ['O seu sofá.', 'Mais cuidado.', 'Mais conforto.'],
+  title: ['Sofá Clean', 'especialista em higienização e', 'impermeabilização de sofá.'],
   description: 'Higienização especializada para cuidar e renovar deixando livre de fungos ácaros e bactérias, prolongando assim a vida útil do seu sofá',
   phone: '+351 925 535 456',
   whatsappNumber: '351925535456',
@@ -32,7 +32,7 @@ export const generalServicesContent = {
     { title: 'Combine a intervenção', text: 'Após a sua aprovação, agendamos o serviço consigo.' },
   ],
 faqs: [
-    { question: 'Onde atua a Sofa Clean Porto?', answer: 'Prestamos serviços ao domicílio nas regiões do Porto e Braga. Envie a sua localidade para confirmar a cobertura, disponibilidade e condições de deslocação.' },
+    { question: 'Onde atua a Sofa Clean Porto?', answer: 'Prestamos serviços ao domicílio nas regiões do Porto e Braga e região. Envie a sua localidade para confirmar a cobertura, disponibilidade e condições de deslocação.' },
     { question: 'Como peço um orçamento?', answer: 'Contacte-nos pelo WhatsApp, telemóvel ou email. Indique a sua localidade, o tipo e a dimensão do artigo e, se possível, envie fotografias do estofo.' },
     { question: 'O sofá fica molhado? Quanto tempo demora a secar?', answer: 'Utilizamos equipamentos profissionais de alta extração para deixar o sofá com humidade residual mínima. A secagem média varia entre 3 a 6 horas, dependendo da ventilação, do tecido e das condições do ambiente.' },
     { question: 'Posso utilizar o sofá logo após a higienização?', answer: 'Recomendamos aguardar a secagem completa para garantir o melhor resultado e evitar marcas prematuras no tecido.' },

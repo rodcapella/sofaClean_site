@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "name": "SofaClean",
-  "description": "Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga.",
+  "description": "Higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização de estofos ao domicílio nas regiões do Porto e Braga e região.",
   "language": "pt-PT",
   "url": "https://www.sofacleanpt.pt/",
   "canonical_url_pending": false,
@@ -11,7 +11,8 @@
   },
   "area_served": [
     "Porto",
-    "Braga"
+    "Braga",
+    "Porto e Braga e região"
   ],
   "services": [
     "Higienização de sofás",
