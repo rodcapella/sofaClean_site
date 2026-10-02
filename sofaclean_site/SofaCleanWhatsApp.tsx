@@ -1,9 +1,10 @@
 'use client';
+import { generalServicesContent } from './content';
+import { whatsappLink, whatsappMessages } from './whatsapp';
 
-export function SofaCleanWhatsApp() {
+export function SofaCleanWhatsApp({ message = whatsappMessages.help }: { message?: string }) {
   const label = 'Precisa de ajuda?';
-  const message = 'Olá! Gostaria de pedir um orçamento à SofaClean.';
-  const href = `https://wa.me/351925535456?text=${encodeURIComponent(message)}`;
+  const href = whatsappLink(generalServicesContent.whatsappNumber, message);
 
   return (
     <a

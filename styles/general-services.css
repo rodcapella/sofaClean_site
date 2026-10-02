@@ -113,3 +113,17 @@
 .template .social-links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}.template .instagram-link svg{height:19px;flex-shrink:0}
 
 .template .hero-copy>.hero-actions{max-width:610px;justify-content:center}
+
+/* Cartões de serviços: duas colunas no desktop e uma no mobile. */
+.template .services .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.template .services .service-card{min-width:0;padding:28px}
+.template .services .service-top{position:relative;justify-content:center;min-height:224px}
+.template .services .service-top>b{position:absolute;top:0;right:0}
+.template .services .service-thumbnail{display:block;width:min(100%,280px);height:224px;object-fit:contain;margin-inline:auto}
+@media(max-width:767px){
+  .template .services.shell{width:calc(100% - 24px)}
+  .template .services .service-grid{grid-template-columns:minmax(0,1fr);gap:18px}
+  .template .services .service-card{padding:22px}
+  .template .services .service-top{min-height:200px}
+  .template .services .service-thumbnail{width:min(100%,250px);height:200px}
+}

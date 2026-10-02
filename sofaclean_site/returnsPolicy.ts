@@ -1,3 +1,4 @@
+import { whatsappLink, whatsappMessages } from './whatsapp';
 export const returnsPolicyHtml = `<p><em>A SofaClean Porto preza pela transparência, qualidade e rigor na prestação dos seus serviços de limpeza e higienização profissional de estofos.</em></p>
 <h2>1. Natureza do Serviço e Resultados</h2>
 <p>Por se tratar de uma <strong>prestação de serviços</strong> e não da venda de um produto físico, não se aplicam devoluções físicas após a conclusão da intervenção. Os resultados dependem do tecido, idade, estado de conservação e natureza da sujidade.</p>
@@ -9,4 +10,4 @@ export const returnsPolicyHtml = `<p><em>A SofaClean Porto preza pela transparê
 <ul><li><strong>Cancelamento pelo cliente:</strong> Deve ser comunicado com pelo menos <strong>24 horas de antecedência</strong>. Cancelamentos tardios ou ausência do cliente no local no momento agendado poderão implicar a aplicação de uma taxa de deslocação.</li><li><strong>Reembolso de pagamentos antecipados:</strong> Caso o cliente tenha efetuado algum pagamento adiantado e cancele o serviço dentro do prazo previsto (mais de 24 horas antes), o valor será integralmente reembolsado pelo mesmo meio de pagamento.</li></ul>
 <h2>5. Contactos</h2>
 <p>Para qualquer questão relacionada com cancelamentos ou apoio pós-serviço, contacte-nos através de:</p>
-<ul><li><strong>WhatsApp / Telemóvel:</strong> <a href="tel:+351925535456">+351 925 535 456</a></li><li><strong>Email:</strong> <a href="mailto:sofaclean.porto@gmail.com">sofaclean.porto@gmail.com</a></li></ul>`;
+<ul><li><strong>WhatsApp / Telemóvel:</strong> <a href="${whatsappLink('351925535456', whatsappMessages.support)}" target="_blank" rel="noopener noreferrer">+351 925 535 456</a></li><li><strong>Email:</strong> <a href="mailto:sofaclean.porto@gmail.com">sofaclean.porto@gmail.com</a></li></ul>`;
