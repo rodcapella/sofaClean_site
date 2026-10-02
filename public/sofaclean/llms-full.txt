@@ -43,7 +43,7 @@ Não é garantida a remoção de todas as manchas. O resultado depende do materi
 - [Perfil estruturado](https://www.sofacleanpt.pt/sofaclean/ai.json)
 - [Manifesto](https://www.sofacleanpt.pt/.well-known/agent.json)
 - [Sitemap](https://www.sofacleanpt.pt/sofaclean/sitemap.xml)
-- [Política de robôs](https://www.sofacleanpt.pt/sofaclean/robots.txt)
+- [Política de robôs](https://www.sofacleanpt.pt/robots.txt)
 
 ## Website oficial
 - https://www.sofacleanpt.pt/

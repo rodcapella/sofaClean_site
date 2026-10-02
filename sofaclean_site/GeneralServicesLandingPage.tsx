@@ -5,7 +5,7 @@ import { whatsappLink, whatsappMessages, serviceWhatsAppMessage } from './whatsa
 import { SofaCleanFooter } from './Footer';
 import { SofaCleanWhatsApp } from './SofaCleanWhatsApp';
 import type { MouseEvent } from 'react';
-import { ArrowRight, Check, ChevronDown, Mail, MapPin, MessageCircle, Phone, Sparkles, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Check, ChevronDown, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
 import type { GeneralServicesContent } from './content';
 import { CustomerReviews } from './CustomerReviews';
 import { LegalModal } from './LegalModal';

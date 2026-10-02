@@ -46,8 +46,7 @@
     "agent_manifest": "https://www.sofacleanpt.pt/.well-known/agent.json",
     "ai_catalog": "https://www.sofacleanpt.pt/ai-catalog.json",
     "sitemap": "https://www.sofacleanpt.pt/sitemap.xml",
-    "root_robots": "https://www.sofacleanpt.pt/robots.txt",
-    "robots": "https://www.sofacleanpt.pt/sofaclean/robots.txt"
+    "robots": "https://www.sofacleanpt.pt/robots.txt"
   },
   "content_preferences": {
     "ai_train": false,

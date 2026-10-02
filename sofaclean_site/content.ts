@@ -4,21 +4,18 @@ export const generalServicesContent = {
   name: 'Sofa Clean',
   tagline: 'Higienização de sofá.',
   area: 'Porto e Braga e região',
-  address: 'Porto e Braga e região, Portugal',
-  mapQuery: 'Porto, Portugal',
   title: ['Sofá Clean', 'especialista em higienização e', 'impermeabilização de sofá.'],
   description: 'Higienização especializada para cuidar e renovar deixando livre de fungos ácaros e bactérias, prolongando assim a vida útil do seu sofá',
   phone: '+351 925 535 456',
   whatsappNumber: '351925535456',
-  whatsappMessage: 'Olá! Gostaria de pedir um orçamento para higienização de sofá.',
   heroImage: { src: '/sofaclean/photos/equipa.webp', alt: 'Equipa SofaClean preparada para cuidar dos seus estofos' } as { src: string; alt: string } | null,
   services: [
-    { icon: Sofa, title: 'Higienização de sofás', text: 'Cuidados para o tecido e limpeza do sofá, com avaliação prévia do seu estado.', note: 'Valores a consultar', image: '/sofaclean/icons/sofas.svg' },
-    { icon: Armchair, title: 'Higienização de poltronas', text: 'Limpeza cuidada de poltronas, adaptada ao material e às necessidades de cada peça.', note: 'Valores a consultar', image: '/sofaclean/icons/poltronas.svg' },
-    { icon: BedDouble, title: 'Higienização de colchões', text: 'Higienização do colchão com avaliação do revestimento e orientação sobre a secagem.', note: 'Valores a consultar', image: '/sofaclean/icons/colchoes.svg' },
-    { icon: Layers, title: 'Limpeza de tapete', text: 'Limpeza de tapetes adaptada às fibras e ao estado de conservação, com avaliação prévia da sujidade e das manchas.', note: 'Valores a consultar', image: '/sofaclean/photos/durante_servico.webp' },
-    { icon: Car, title: 'Limpeza de banco de carro', text: 'Limpeza dos estofos dos bancos do carro, com cuidados adequados ao material e orientação sobre a secagem.', note: 'Valores a consultar', image: '/sofaclean/icons/banco-carro.svg' },
-    { icon: ShieldCheck, title: 'Impermeabilização', text: 'Tratamento de proteção dos estofos para ajudar a reduzir a absorção de líquidos, sujeito à avaliação e compatibilidade do tecido.', note: 'Valores a consultar', image: '/sofaclean/icons/impermeabilizacao.svg' },
+    { icon: Sofa, title: 'Higienização de sofás', text: 'Cuidados para o tecido e limpeza do sofá, com avaliação prévia do seu estado.', image: '/sofaclean/photos/servico_sofa.webp' },
+    { icon: Armchair, title: 'Higienização de poltronas', text: 'Limpeza cuidada de poltronas, adaptada ao material e às necessidades de cada peça.', image: '/sofaclean/icons/poltronas.svg' },
+    { icon: BedDouble, title: 'Higienização de colchões', text: 'Higienização do colchão com avaliação do revestimento e orientação sobre a secagem.', image: '/sofaclean/photos/servico_colchao.webp' },
+    { icon: Layers, title: 'Limpeza de tapete', text: 'Limpeza de tapetes adaptada às fibras e ao estado de conservação, com avaliação prévia da sujidade e das manchas.', image: '/sofaclean/photos/durante_servico.webp' },
+    { icon: Car, title: 'Limpeza de banco de carro', text: 'Limpeza dos estofos dos bancos do carro, com cuidados adequados ao material e orientação sobre a secagem.', image: '/sofaclean/photos/servico_banco_carro.webp' },
+    { icon: ShieldCheck, title: 'Impermeabilização', text: 'Tratamento de proteção dos estofos para ajudar a reduzir a absorção de líquidos, sujeito à avaliação e compatibilidade do tecido.', image: '/sofaclean/photos/servico_impermebelizacao.webp' },
   ],
   benefits: [
     { icon: Building2, title: 'Para casas e empresas', text: 'Uma proposta ajustada ao espaço e ao serviço de que precisa.' },
@@ -45,13 +42,6 @@ faqs: [
     { question: 'Quais são os métodos de pagamento aceites?', answer: 'Aceitamos pagamentos por transferência bancária, MB Way ou dinheiro, a efetuar no momento da conclusão do serviço após a verificação e aprovação por parte do cliente.' },
     { question: 'Existe alguma garantia no serviço prestado?', answer: 'Sim. Se detetar alguma inconformidade relacionada diretamente com a execução da limpeza nas primeiras 24 horas após o serviço, pedimos que nos contacte de imediato para avaliarmos a situação e efetuarmos o ajuste necessário sem custos adicionais.' }
   ],
-  // Apenas fotografias e avaliações reais autorizadas. Secções ocultas quando vazias.
-  projects: [
-    { title: 'Higienização de sofá', before: '/sofaclean/photos/sofa_antes.webp', after: '/sofaclean/photos/sofa_depois.webp' },
-    { title: 'Higienização de colchão', before: '/sofaclean/photos/colchao_antes.webp', after: '/sofaclean/photos/colchao_depois.webp' },
-    { title: 'Limpeza de tapete', before: '/sofaclean/photos/tapete_antes.webp', after: '/sofaclean/photos/tapete_depois.webp' },
-    { title: 'Higienização de banco de carro', before: '/sofaclean/photos/banco_carro_antes.webp', after: '/sofaclean/photos/banco_carro_depois.webp' },
-  ] as { title: string; before: string; after: string }[],
   googleReviews: { url: 'https://share.google/sy3XCoSj15maT1CxE', rating: 5 as number | null, count: 42 as number | null, checkedOn: '02/10/2026' },
   testimonials: [
     { quote: 'Empresa de confiabilidade, transparência e muito profissionalismo. Indico imenso!', author: 'Daniel Cambui', rating: 5, url: 'https://share.google/sy3XCoSj15maT1CxE' },

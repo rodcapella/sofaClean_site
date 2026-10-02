@@ -7,7 +7,7 @@ Módulo da aplicação principal, disponível em `/sofaclean`. Usa as dependênc
 - `GeneralServicesLandingPage.tsx`: página e rodapé com contactos reais.
 - `LegalPage.tsx`: apresentação comum das páginas legais.
 - `app/sofaclean/termos-e-condicoes` e `app/sofaclean/privacidade`: textos específicos.
-- `public/sofaclean/`: llms.txt, llms-full.txt, ai.json, robots.txt e .well-known/agent.json.
+- `public/sofaclean/`: llms.txt, llms-full.txt e ai.json. O robots.txt é gerado por `app/robots.txt/route.ts` e o manifesto está em `public/.well-known/agent.json`.
 - `app/sofaclean/sitemap.xml/route.ts`: sitemap com o endereço do alojamento atual.
 
 ## Referências e adaptação
