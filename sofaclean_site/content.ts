@@ -1,4 +1,4 @@
-import { Building2, Sofa, Armchair, BedDouble, Car, Layers, ShieldCheck, CalendarCheck, Sparkles } from 'lucide-react';
+import { Building2, Sofa, BedDouble, Car, Layers, ShieldCheck, CalendarCheck, Sparkles } from 'lucide-react';
 
 export const generalServicesContent = {
   name: 'Sofa Clean',
@@ -10,8 +10,7 @@ export const generalServicesContent = {
   whatsappNumber: '351925535456',
   heroImage: { src: '/sofaclean/photos/equipa.webp', alt: 'Equipa SofaClean preparada para cuidar dos seus estofos' } as { src: string; alt: string } | null,
   services: [
-    { icon: Sofa, title: 'Higienização de sofás', text: 'Cuidados para o tecido e limpeza do sofá, com avaliação prévia do seu estado.', image: '/sofaclean/photos/servico_sofa.webp' },
-    { icon: Armchair, title: 'Higienização de poltronas', text: 'Limpeza cuidada de poltronas, adaptada ao material e às necessidades de cada peça.', image: '/sofaclean/icons/poltronas.svg' },
+    { icon: Sofa, title: 'Higienização de sofás', text: 'Cuidados para o tecido e limpeza do sofá, com avaliação prévia do seu estado.', image: '/sofaclean/photos/servico_sofa_separada.webp' },
     { icon: BedDouble, title: 'Higienização de colchões', text: 'Higienização do colchão com avaliação do revestimento e orientação sobre a secagem.', image: '/sofaclean/photos/servico_colchao.webp' },
     { icon: Layers, title: 'Limpeza de tapete', text: 'Limpeza de tapetes adaptada às fibras e ao estado de conservação, com avaliação prévia da sujidade e das manchas.', image: '/sofaclean/photos/durante_servico.webp' },
     { icon: Car, title: 'Limpeza de banco de carro', text: 'Limpeza dos estofos dos bancos do carro, com cuidados adequados ao material e orientação sobre a secagem.', image: '/sofaclean/photos/servico_banco_carro.webp' },
