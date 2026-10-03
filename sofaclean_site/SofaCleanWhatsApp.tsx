@@ -11,7 +11,6 @@ export function SofaCleanWhatsApp({ message = whatsappMessages.help }: { message
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`${label} WhatsApp`}
       className="whatsapp-float"
     >
       <span className="whatsapp-label">

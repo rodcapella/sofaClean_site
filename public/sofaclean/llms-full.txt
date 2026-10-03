@@ -26,18 +26,6 @@ Website: https://www.sapienteai.com/pt
 ## Terminologia dos serviços
 Estofados e estofos são termos usados para os revestimentos acolchoados de peças como sofás, poltronas e bancos de carro. A SofaClean apresenta serviços de higienização de sofás, poltronas e colchões, limpeza de tapete e de banco de carro e impermeabilização, mediante avaliação. Estes termos não indicam serviços adicionais aos publicados.
 
-## Respostas diretas
-### O que faz a SofaClean?
-Higienização de sofás; Higienização de poltronas; Higienização de colchões; Limpeza de tapete; Limpeza de banco de carro; Impermeabilização. Valores a consultar para todos os serviços.
-### Em que consiste a impermeabilização?
-Tratamento de proteção dos estofos para ajudar a reduzir a absorção de líquidos, sujeito à avaliação e compatibilidade do tecido. Não garante proteção total contra manchas.
-### Onde atua?
-Nas regiões do Porto e Braga e região. A cobertura da localidade, disponibilidade e deslocação são confirmadas no orçamento.
-### Como pedir orçamento?
-Contactar o WhatsApp +351 925 535 456 com localidade, tipo e dimensão do artigo e, se possível, fotografias.
-### Todas as manchas desaparecem?
-Não é garantida a remoção de todas as manchas. O resultado depende do material, conservação e origem da mancha.
-
 ## Recursos para sistemas de pesquisa e IA
 - [Contexto completo](https://www.sofacleanpt.pt/sofaclean/llms-full.txt)
 - [Perfil estruturado](https://www.sofacleanpt.pt/sofaclean/ai.json)
@@ -47,9 +35,6 @@ Não é garantida a remoção de todas as manchas. O resultado depende do materi
 
 ## Website oficial
 - https://www.sofacleanpt.pt/
-
-## Precisão e atribuição
-Citar SofaClean e a página consultada. Confirmar preços, horários e disponibilidade por contacto direto. Não inventar certificações, moradas, NIF, avaliações, garantias, percentagens de desinfeção ou serviços adicionais. Não confundir com outras marcas de nome semelhante.
 
 ## Prestação do serviço
 O cliente descreve o artigo e a localização. A equipa avalia o pedido, apresenta as condições e combina a intervenção após aceitação. As limitações do tecido e danos preexistentes devem ser analisados antes do tratamento. Trabalhos adicionais exigem acordo prévio.

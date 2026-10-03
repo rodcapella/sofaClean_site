@@ -50,26 +50,12 @@
   "content_preferences": {
     "ai_train": false,
     "search": true,
-    "ai_input": true,
-    "attribution": "Citar SofaClean e a página consultada."
-  },
-  "ai_guidance": {
-    "verify_time_sensitive_information": true,
-    "do_not": [
-      "Inventar preços, horários, sede, NIF ou certificações",
-      "Garantir remoção total de manchas ou efeitos médicos",
-      "Atribuir serviços e garantias de outras empresas à SofaClean",
-      "Tratar a presença de JSON-LD como prova de autoridade, certificação ou ranking",
-      "Apresentar a SofaClean como certificada ou desinfetadora sem evidência publicada"
-    ]
+    "ai_input": true
   },
   "pricing": "Valores a consultar",
   "editorial_signals": {
     "brand_visible_name": "SofaClean",
     "language": "pt-PT",
-    "author_policy": "Conteúdo factual deve ser atribuído à SofaClean; não inventar autores, clientes, métricas ou certificações.",
-    "sources_policy": "Usar páginas oficiais e fontes legais identificadas; links meramente operacionais não são fontes editoriais.",
-    "responsibility": "Os sinais editoriais são observáveis e não certificam E-E-A-T nem garantem posicionamento.",
     "last_reviewed": "2026-09-19"
   },
   "keywords": [
