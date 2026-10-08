@@ -13,6 +13,7 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit",
+    "test:google-reviews": "node --test shared/google-reviews/tests/*.test.mjs",
     "build:vercel": "vite build"
   },
   "dependencies": {

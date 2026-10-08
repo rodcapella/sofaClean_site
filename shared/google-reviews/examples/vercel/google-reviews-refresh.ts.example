@@ -1,0 +1,3 @@
+// Template: copy into api/google-reviews-refresh.ts. Requires Authorization: Bearer CRON_SECRET.
+import { createVercelReviewsHandler } from '../shared/google-reviews/server/http.mjs';
+export default createVercelReviewsHandler({ mode: 'refresh' });

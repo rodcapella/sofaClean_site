@@ -1,9 +1,15 @@
+'use client';
+import { useGoogleReviews } from '../shared/google-reviews/react/useGoogleReviews';
+import { withGoogleReviews } from '../shared/google-reviews/adapters/sofaclean';
 import { whatsappLink, whatsappMessages } from './whatsapp';
 import { ExternalLink, MessageCircle, Quote, Star } from 'lucide-react';
 import type { GeneralServicesContent } from './content';
 
 export function CustomerReviews({ content }: { content: GeneralServicesContent }) {
-  const { googleReviews: google, testimonials } = content;
+  const enabled = (import.meta as ImportMeta & { env?: Record<string, string> }).env?.VITE_GOOGLE_REVIEWS_ENABLED === 'true';
+  const { data } = useGoogleReviews({ enabled });
+  const displayedContent = data ? withGoogleReviews(content, data) : content;
+  const { googleReviews: google, testimonials } = displayedContent;
   const hasRating = google.rating !== null && google.count !== null && google.count > 0;
   const badge = <><span className="google-review-brand"><span className="google-letter" aria-hidden="true">G</span>Google{google.url && <ExternalLink size={15} aria-hidden="true" />}</span>{hasRating ? <span className="google-review-score"><strong>{google.rating}/5</strong><span>{google.count} críticas</span></span> : <span className="google-review-score"><span>Avaliações de clientes</span></span>}</>;
   return <section className="customer-reviews section" id="depoimentos" aria-labelledby="reviews-title"><div className="shell">

@@ -1,0 +1,4 @@
+{
+  "compilerOptions": { "target": "ES2022", "module": "ESNext", "moduleResolution": "Bundler", "jsx": "react-jsx", "strict": true, "skipLibCheck": true, "noEmit": true },
+  "include": ["types.ts", "react/**/*.ts", "react/**/*.tsx", "react/**/*.mts", "server/**/*.mts", "adapters/**/*.ts", "sofaclean_site/**/*.ts", "sofaclean_site/**/*.tsx"]
+}

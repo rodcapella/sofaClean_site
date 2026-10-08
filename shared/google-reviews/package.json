@@ -1,0 +1,19 @@
+{
+  "name": "@rodcapella/get-google-reviews",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Avaliações de um perfil Google Business: backend, cache temporária, API e widget React",
+  "engines": { "node": ">=22" },
+  "exports": {
+    "./react": "./react/index.ts",
+    "./styles.css": "./react/styles.css",
+    "./server/client": "./server/google-client.mjs",
+    "./server/service": "./server/service.mjs",
+    "./server/http": "./server/http.mjs",
+    "./server/cache": "./server/cache.mjs"
+  },
+  "scripts": { "typecheck": "tsc --noEmit", "test": "node --test tests/*.test.mjs" },
+  "dependencies": { "react": "19.2.6", "lucide-react": "1.31.0" },
+  "devDependencies": { "typescript": "5.9.3", "@types/react": "19.2.14" }
+}

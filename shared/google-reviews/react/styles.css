@@ -1,0 +1,8 @@
+.google-reviews { color: inherit; padding: 2rem 0; }
+.google-reviews header { margin-bottom: 1.5rem; }
+.google-reviews a { color: inherit; text-underline-offset: .2em; }
+.google-reviews__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 1rem; }
+.google-reviews figure { margin: 0; padding: 1.25rem; border: 1px solid currentColor; border-radius: .75rem; overflow-wrap: anywhere; }
+.google-reviews blockquote { margin: 1rem 0; white-space: pre-wrap; }
+.google-reviews figcaption { display: grid; gap: .25rem; }
+.google-reviews time, .google-reviews__source { font-size: .875rem; }

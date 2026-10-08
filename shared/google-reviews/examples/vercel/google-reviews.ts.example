@@ -1,0 +1,3 @@
+// Template: copy into api/google-reviews.ts; shared/google-reviews contains server/* files.
+import { createVercelReviewsHandler } from '../shared/google-reviews/server/http.mjs';
+export default createVercelReviewsHandler();
