@@ -1,5 +1,7 @@
 # Avaliações Google — SofaClean
 
+Guia completo: [Manual do componente Google Reviews](MANUAL_GOOGLE_REVIEWS.md). Catálogo da biblioteca: [Manual dos componentes reutilizáveis](MANUAL_COMPONENTES.md).
+
 Implementação no branch `feat/google-reviews-by-profile`, limitada a um perfil por configuração: `accountId` e `locationId`. A Sapiente AI e a Infolite são destinos posteriores; rpovoadata e Miko ficam fora desta aplicação.
 
 ## O que está implementado
