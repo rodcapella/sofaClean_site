@@ -1,5 +1,5 @@
 /*!
- * Theme/UI Architecture by Sapiente.AI
+ * Theme/UI Architecture by Sapiente AI
  * https://www.sapienteai.com/pt
  */
 .contactOverlay{position:fixed;inset:0;z-index:2000;display:grid;place-items:center;padding:20px;background:rgba(7,29,66,.72);backdrop-filter:blur(8px)}

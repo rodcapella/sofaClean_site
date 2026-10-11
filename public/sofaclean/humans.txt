@@ -1,5 +1,5 @@
 /* TEAM */
-Developer: Sapiente.AI
+Developer: Sapiente AI
 Website: https://www.sapienteai.com/pt
 Twitter: https://x.com/SapienteAI
 Role: Design, estruturação e desenvolvimento técnico do website
