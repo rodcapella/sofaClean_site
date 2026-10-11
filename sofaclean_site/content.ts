@@ -2,7 +2,7 @@ import { Building2, Sofa, BedDouble, Car, Layers, ShieldCheck, CalendarCheck, Sp
 
 export const generalServicesContent = {
   name: 'Sofa Clean',
-  tagline: 'Higienização de sofá.',
+  tagline: 'Higienização de sofá',
   area: 'Porto e Braga e região',
   title: ['Sofá Clean', 'especialista em higienização e', 'impermeabilização de sofá.'],
   description: 'Higienização especializada para cuidar e renovar deixando livre de fungos ácaros e bactérias, prolongando assim a vida útil do seu sofá',
