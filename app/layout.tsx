@@ -14,6 +14,8 @@ export const metadata: Metadata = {
  keywords: ['higienização de estofados', 'limpeza de estofos', 'higienização de sofás Porto', 'limpeza de tapetes Braga', 'higienização de colchões', 'limpeza de bancos de carros', 'impermeabilização de estofos', 'higienização de poltronas', 'limpeza ao domicílio Porto e Braga e região'],
  robots: { index: true, follow: true },
  icons: { icon: [{ url: '/sofaclean/icons/favicon-16x16.png', type: 'image/png', sizes: '16x16' }, { url: '/sofaclean/icons/favicon-32x32.png', type: 'image/png', sizes: '32x32' }], apple: '/sofaclean/icons/apple-touch-icon.png', shortcut: '/sofaclean/icons/favicon-32x32.png', other: [{ rel: 'manifest', url: '/site.webmanifest' }] },
+  openGraph: { type: 'website', siteName: 'SofaClean', locale: 'pt_PT', images: [{ url: '/sofaclean/logos/sofa-clean-logo.png', width: 215, height: 205, alt: '' }] },
+  twitter: { card: 'summary', images: ['/sofaclean/logos/sofa-clean-logo.png'] },
   authors: [{ name: 'SofaClean' }],
   other: { generator: 'Website desenvolvido pela Sapiente AI' },
 };

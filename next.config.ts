@@ -8,7 +8,7 @@ const securityHeaders = [
   { key: 'X-Frame-Options', value: 'DENY' },
   {
     key: 'Content-Security-Policy',
-    value: "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; style-src-attr 'none'; script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com; script-src-attr 'none'; connect-src 'self' https://va.vercel-scripts.com; frame-src 'none'; manifest-src 'self'; upgrade-insecure-requests",
+    value: "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; img-src 'self' data: https://www.facebook.com; font-src 'self'; style-src 'self'; style-src-attr 'none'; script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com https://connect.facebook.net; script-src-attr 'none'; connect-src 'self' https://va.vercel-scripts.com https://www.facebook.com https://connect.facebook.net; frame-src 'none'; manifest-src 'self'; upgrade-insecure-requests",
   },
   { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
   { key: 'Cross-Origin-Resource-Policy', value: 'same-origin' },
