@@ -8,7 +8,7 @@ export const generalServicesContent = {
   description: 'Higienização especializada para cuidar e renovar deixando livre de fungos ácaros e bactérias, prolongando assim a vida útil do seu sofá',
   phone: '+351 925 535 456',
   whatsappNumber: '351925535456',
-  heroImage: { src: '/sofaclean/photos/equipa.webp', alt: 'Equipa SofaClean preparada para cuidar dos seus estofos' } as { src: string; alt: string } | null,
+  heroImage: { src: '/sofaclean/photos/foto_hero_sem_logo.webp', alt: 'Equipa SofaClean preparada para cuidar dos seus estofos' } as { src: string; alt: string } | null,
   services: [
     { icon: Sofa, title: 'Higienização de sofás', text: 'Cuidados para o tecido e limpeza do sofá, com avaliação prévia do seu estado.', image: '/sofaclean/photos/servico_sofa_separada.webp' },
     { icon: BedDouble, title: 'Higienização de colchões', text: 'Higienização do colchão com avaliação do revestimento e orientação sobre a secagem.', image: '/sofaclean/photos/servico_colchao.webp' },

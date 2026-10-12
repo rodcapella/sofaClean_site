@@ -15,3 +15,7 @@ input,select,textarea { font:inherit; }
 .skip-link:focus { transform:translateY(0); }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation:none!important; transition:none!important; } }
 
+
+:root{--mobile-font-scale:1}
+body{font-size:calc(16px * var(--mobile-font-scale))}
+@media(max-width:850px){:root{--mobile-font-scale:.8}}
